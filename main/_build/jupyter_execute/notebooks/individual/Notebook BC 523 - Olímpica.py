@@ -114,7 +114,7 @@ front = cln.remove_outliers_by_zscore(front, zscore=4)
 front_reactiva = cln.remove_outliers_by_zscore(front, zscore=4)
 
 
-# In[ ]:
+# In[7]:
 
 
 cargas_hour = cargas.groupby(by=["variable"]).resample('1h').sum().round(2).reset_index().set_index('datetime')
@@ -141,7 +141,7 @@ front_reactiva_hour = pro.datetime_attributes(front_reactiva_hour)
 
 # ## Plots
 
-# In[ ]:
+# In[8]:
 
 
 fig = px.bar(
@@ -167,7 +167,7 @@ fig.update_layout(
 fig.show()
 
 
-# In[ ]:
+# In[9]:
 
 
 front_cons_total = front_month.iloc[-1]["value"]
@@ -175,7 +175,7 @@ front_cons_total = front_month.iloc[-1]["value"]
 print(f"El consumo de energía del mes pasado fue {front_cons_total:.0f}kWh")
 
 
-# In[ ]:
+# In[10]:
 
 
 df_front_cargas = pd.concat([front, cargas])
@@ -215,7 +215,7 @@ if (cargas_daily_nighttime_cons.shape[0] > 0):
     fig.show()
 
 
-# In[ ]:
+# In[11]:
 
 
 total_night_cons = cargas_daily_nighttime_cons.query("variable == 'front-consumo-activa'")
@@ -224,7 +224,7 @@ consumo_nocturno = total_night_cons["value"].sum()
 print(f"Durante el mes pasado se consumió un total de {consumo_nocturno:.0f}kWh fuera del horario establecido.")
 
 
-# In[ ]:
+# In[12]:
 
 
 total_night_cons = cargas_daily_nighttime_cons.query("variable == 'front-consumo-activa'")
@@ -235,7 +235,7 @@ night_cons_percent = 100 * consumo_nocturno / front_cons_total
 print(f"El consumo nocturno representó el {night_cons_percent:.1f}% del consumo total")
 
 
-# In[ ]:
+# In[13]:
 
 
 cargas_cons_total = cargas_month['value'].sum()
@@ -284,7 +284,7 @@ if (df_pie.value >= 0).all():
     fig.show()
 
 
-# In[ ]:
+# In[14]:
 
 
 df_plot = pd.concat([front_hour, cargas_hour])
@@ -335,7 +335,7 @@ fig.update_yaxes(rangemode="tozero")
 fig.show()
 
 
-# In[ ]:
+# In[15]:
 
 
 df_pa_bl, df_pa_st = pro.split_into_baseline_and_study(df_pa, baseline=cfg.BASELINE, study=cfg.STUDY, inclusive='both')
@@ -397,7 +397,7 @@ if (len(df_pa_bl) > 0) & (len(df_pa_st) > 0):
     )
 
 
-# In[ ]:
+# In[16]:
 
 
 matrix = front_hour.pivot(index='day', columns='hour', values='value')
@@ -410,7 +410,7 @@ if (matrix.shape[0] > 0) & (matrix.shape[1] > 0):
     )
 
 
-# In[ ]:
+# In[17]:
 
 
 matrix = (
@@ -427,7 +427,7 @@ if (matrix.shape[0] > 0) & (matrix.shape[1] > 0):
     )
 
 
-# In[ ]:
+# In[18]:
 
 
 matrix = (

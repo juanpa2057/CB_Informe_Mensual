@@ -2,11 +2,11 @@
 
 <div align="right">
 
-<span style="font-size: smaller;">Reporte mensual elaborado 19/09/2023</span>
+<span style="font-size: smaller;">Reporte mensual elaborado 09/10/2023</span>
 
 </div>
 
-Agosto de 2023
+Septiembre 2023
 ## Tener presente:
 
 1. Las pérdidas de datos en el totalizador pueden hacer parecer como que los consumos de AA o Iluminación superan al totalizador.
@@ -15,18 +15,19 @@ Agosto de 2023
 4. Es normal que los consumos de AA fluctúen entre días y semanas, producto del clima.
 
 ## Observaciones generales:
-Durante el mes de agosto, se observó que las sedes incrementaron su consumo en un 3% en promedio en comparación con su línea de referencia, por las altas temperaturas que se están presentando como consecuencia del fenómeno del Niño
+Durante el mes de septiembre se observó que las sedes disminuyeron su consumo en un 4% en promedio en comparación con el mes anterior:
 
-### Sedes que vieron una reducción en el consumo en comparación al mes de agoto respecto a julio:
-- GIRARDOT
-- LLANO GRANDE PALMIRA
-- PALMIRA
-
-
-### Sedes que vieron un incremento en el consumo en comparación al mes de agoto respecto a julio:
-- QUINTA AVENIDAD
+### Sedes que vieron una reducción en el consumo en comparación al mes de septiembre respecto a agosto:
 - IWANNA
-- SAN MATEO
+- MAYALES
+- EL BOSQUE
+- BUGANVILES
+
+
+### Sedes que vieron un incremento en el consumo en comparación al mes de septiembre respecto a agosto:
+- CALLE 10
+- GIRARDOT
+- PUERTAS DEL NORTE
 
 
 
@@ -41,9 +42,9 @@ Durante el mes de agosto, se observó que las sedes incrementaron su consumo en 
 
 - Es necesario validar las cargas durante el horario no laboral ya que se registra un consumo promedio de 10 kWh, lo que representa un nivel de consumo significativo para la sede.
 
-### BC 66 - Palmira
+<!-- ### BC 66 - Palmira -->
 
-- La sede ha logrado reducir su consumo en un 7% con respecto al mes anterior, lo que indica que se ha tenido en cuenta la recomendación de encender el aire acondicionado a partir de las 7:00 am. Esta medida ha generado ahorros de 649 kWh en el mes de agosto.
+<!-- La sede ha logrado reducir su consumo en un 7% con respecto al mes anterior, lo que indica que se ha tenido en cuenta la recomendación de encender el aire acondicionado a partir de las 7:00 am. Esta medida ha generado ahorros de 649 kWh en el mes de Septiembre. -->
 
 <!-- ### BC 78 - El Cacique -->
 
@@ -51,15 +52,17 @@ Durante el mes de agosto, se observó que las sedes incrementaron su consumo en 
 
 <!-- ### BC 90 - Megamall -->
 
-### BC 185 - Llano Grande Palmira
+<!-- ### BC 185 - Llano Grande Palmira
 
-- Se han logrado ahorros de 399 kWh para el mes de agosto gracias a la corrección de los consumos atípicos durante los fines de semana mediante ajustes en la automatización.
+<!-- Se han logrado ahorros de 399 kWh para el mes de Septiembre gracias a la corrección de los consumos atípicos durante los fines de semana mediante ajustes en la automatización. -->
+
+### BC 197 - Guatapuri
+
+- Se debe revisa la carga de AA, la cual presenta un cambio en el patrón de consumo para el mes de septiembre.
 
 <!-- ### BC 205 - Villa Colombia -->
 
 <!-- ### BC 210 - Banca Colombia Cartagena -->
-
-<!-- ### BC 197 - Guatapuri -->
 
 <!-- Validar que trabajo se realizo el 20 junio debido a que bajo el consumo de la carga de AA en las horas nocturnas, replicar acción de mejora en otras sedes. -->
 
@@ -81,43 +84,45 @@ Durante el mes de agosto, se observó que las sedes incrementaron su consumo en 
 
 - Cambio en el patrón de consumo de la carga AA, la sede se encuentra en gestión (SOPORTICA -CELSIA).
 
-### BC 311 - Bello
+<!-- ### BC 311 - Bello -->
 
-- Se ha identificado una novedad en el consumo de energía en la sede durante los días festivos.
+<!-- Se ha identificado una novedad en el consumo de energía en la sede durante los días festivos. -->
 
-### BC 371 - Caucasia
+<!-- ### BC 371 - Caucasia
 
-- Se presenta novedad en medida AA a partir del 5 julio, se presentaron trabajos en la sede por reposición de aire y planta electrica. Se presenta novedad en la medida de AA.
+- Se presenta novedad en medida AA a partir del 5 agosto, se presentaron trabajos en la sede por reposición de aire y planta electrica. Se presenta novedad en la medida de AA. -->
 
 <!-- ### BC 398 - Mariquita -->
 
-<!-- ### BC 424 - Honda -->
+### BC 424 - Honda
 
-<!-- ### BC 453 - Pitalito -->
+- La sede presentó un cambio en el patrón de consumo del 23 al 26 de septiembre.
 
-### BC 454 - Quinta Avenida
+### BC 453 - Pitalito
 
-- La sede experimentó un cambio en el patrón de consumo a partir del 1 al 14 de agosto, lo que resultó en un aumento de 2097 kWh en comparación con el mes de julio.
+- La sede presentó un cambio en el patrón de consumo a partir 25 de septiembre por trabajos en la sede.
+
+<!-- ### BC 454 - Quinta Avenida  
+
+- La sede experimentó un cambio en el patrón de consumo a partir del 1 al 14 de Septiembre, lo que resultó en un aumento de 2097 kWh en comparación con el mes de agosto.-->
 
 
-<!-- Se ha normalizado la medida a partir del 10 julio, se incluye en el dashboard e informe de control. Es
+<!-- Se ha normalizado la medida a partir del 10 agosto, se incluye en el dashboard e informe de control. Es
 importante tener en cuenta que se está construyendo la línea base para futuras referencias. -->
 
-### BC 459 - Campo Alegre
+<!--### BC 459 - Campo Alegre -->
 
-- Hubo un cambio en el patrón de consumo los días 19, 26 y 27 de agosto, especialmente durante los fines de semana, los cuales volvieron a la normalidad.
-
-<!-- Se debe validar sistema de AA, debido a que presenta comportamiento de consumo atipico a partir del 15 julio. -->
+<!-- Se debe validar sistema de AA, debido a que presenta comportamiento de consumo atipico a partir del 15 agosto. -->
 
 <!-- Pendiente de actualización de firmware. -->
 
 <!-- ### BC 495 - El Bosque -->
 
-<!-- Se presenta alerta por carga climitazación en horario nocturno para el sabado 22 julio. Validar si se presentaron trabajos en la sede. -->
+<!-- Se presenta alerta por carga climitazación en horario nocturno para el sabado 22 agosto. Validar si se presentaron trabajos en la sede. -->
 
 ### BC 496 - Iwanna
 
-- La sede experimentó un cambio en el patrón de consumo a partir del 20 de agosto, lo que resultó en un aumento de 1,693 kWh en comparación con el mes de julio. Se suguiere validarse las cargas.
+- Los trabajos en la sede finalizaron el 4 de septiembre y se observó una disminución de 1,711 kWh en el consumo en septiembre en comparación con el mes de agosto.
 
 <!--### BC 514 - Centro Comercial Único -->
 
@@ -127,22 +132,18 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!-- ### BC 613 - La America -->
 
-<!-- Se presentó un cambio en el consumo nocturno para el 12 de julio. Se deben validar temas de automatización en la sede. -->
+<!-- Se presentó un cambio en el consumo nocturno para el 12 de agosto. Se deben validar temas de automatización en la sede. -->
 
 <!-- ### BC 656 - Mayales -->
 
-### BC 659 - Girardot
-
-- El consumo de agosto disminuyó un 9.1% en comparación con julio, lo que equivale a 997 kWh, debido a los ajustes realizados en los equipos de aire acondicionado y termostatos que se tenían reportados.
-
-### BC 678 - Paseo de la Castellana
-
-- La sede experimentó un cambio en el patrón de consumo a partir del 23 de agosto, lo que resultó en un aumento de 1,156 kWh en comparación con el mes de julio. Se suguiere validarse las cargas.
+<!-- ### BC 659 - Girardot -->
 
 
-### BC 705 - El Bagre 
+<!-- ### BC 678 - Paseo de la Castellana -->
 
-- La sede presentó novedades en el consumo de aire acondicionado durante las noches de los días 14 y 15 de agosto.
+
+<!-- ### BC 705 - El Bagre  --> 
+
 
 <!-- ### BC 741 - Calima--> 
 
@@ -153,7 +154,9 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!-- ### BC 764 - Jamundí -->
 
-<!-- ### BC 776 - Lebrija -->
+### BC 776 - Lebrija
+
+- Se debe validar la carga totalizadora, ya que presenta un cambio en el patrón de consumo a partir del 11 de septiembre.
 
 ### BC 784 - Centro Colon
 
@@ -167,13 +170,17 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!-- ### BC 792 - Paseo del comercio -->
 
-<!-- ### BC 793 - Profesionales -->
+### BC 793 - Profesionales
+
+- La sede presentó un cambio en el patrón de consumo a partir 16 al 25 de septiembre por trabajos en la sede.
 
 <!-- ### BC 796 - Girón -->
 
 <!-- ### BC 799 - Floridablanca -->
 
-<!-- ### BC 816 - Calle 10 -->
+### BC 816 - Calle 10
+
+- La sede presentó un cambio en el patrón de consumo a partir 18 septiembre en el sistema AA.
 
 <!-- ### BC 824 - Ventura Plaza -->
 
@@ -182,11 +189,9 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!--### BC 829 - Unicentro Cali -->
 
-<!-- A partir del 4 de julio, se ha normalizado el monitoreo debido a una adecuación realizada en la sede. -->
+<!-- A partir del 4 de agosto, se ha normalizado el monitoreo debido a una adecuación realizada en la sede. -->
 
-### BC 834 - San Mateo
-
-- La sede experimentó un cambio en el patrón de consumo a partir del 9 al 22 de agosto, lo que resultó en un aumento de 1,257 kWh en comparación con el mes de julio.
+<!-- ### BC 834 - San Mateo -->
 
 <!-- ### BC 863 - Los Patios -->
 

@@ -14,7 +14,7 @@ chapters:
   - file: notebooks/individual/Notebook BC 88 - Cúcuta
   - file: notebooks/individual/Notebook BC 90 - Megamall
   - file: notebooks/individual/Notebook BC 185 - Llano Grande Palmira
-  #- file: notebooks/individual/Notebook BC 197 - Guatapuri
+  - file: notebooks/individual/Notebook BC 197 - Guatapuri
   - file: notebooks/individual/Notebook BC 205 - Villa Colombia
   - file: notebooks/individual/Notebook BC 210 - Banca Colombia Cartagena
   - file: notebooks/individual/Notebook BC 216 - Sabana de Torres
@@ -33,7 +33,7 @@ chapters:
   - file: notebooks/individual/Notebook BC 496 - Iwanna
   - file: notebooks/individual/Notebook BC 514 - Centro Comercial Único
   - file: notebooks/individual/Notebook BC 524 - S.A. Valledupar
-  #- file: notebooks/individual/Notebook BC 523 - Olímpica
+  - file: notebooks/individual/Notebook BC 523 - Olímpica
   - file: notebooks/individual/Notebook BC 534 - Buganviles
   - file: notebooks/individual/Notebook BC 613 - La America
   - file: notebooks/individual/Notebook BC 656 - Mayales
