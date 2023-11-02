@@ -5,9 +5,9 @@
 # 
 # # Resumen
 # 
-# Septiembre de 2023
+# Octubre de 2023
 
-# ¡Hola!, te presentamos el informe correspondiente a tus consumos del mes de septiembre 2023. A continuación vas a encontrar un resumen de los consumos realizados de forma acumulada. Para esto encontrarás una serie de gráficas diseñadas para dar un vistazo a los consumos por sede. Finalmente, encontrarás un informe detallado para cada sede.
+# ¡Hola!, te presentamos el informe correspondiente a tus consumos del mes de octubre 2023. A continuación vas a encontrar un resumen de los consumos realizados de forma acumulada. Para esto encontrarás una serie de gráficas diseñadas para dar un vistazo a los consumos por sede. Finalmente, encontrarás un informe detallado para cada sede.
 
 # ## Definitions
 # 
@@ -257,7 +257,7 @@ fig.update_layout(title_text="Mapa de intensidad de consumo [kWh/m^2-año]", fon
 fig.show()
 
 
-# De las sedes monitoreadas las que presentan mayor intensidad de consumo son Paseo de la castellana, Centro Colón, San Mateo y Ventura plaza. También podemos notar que en general entre sedes cercanas hay intensidades de consumo similares.
+# De las sedes monitoreadas las que presentan mayor intensidad de consumo son Paseo de la castellana, Centro Colón, Jamundi y Ventura plaza. También podemos notar que en general entre sedes cercanas hay intensidades de consumo similares.
 
 # In[11]:
 

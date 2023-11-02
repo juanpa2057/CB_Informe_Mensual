@@ -2,11 +2,11 @@
 
 <div align="right">
 
-<span style="font-size: smaller;">Reporte mensual elaborado 09/10/2023</span>
+<span style="font-size: smaller;">Reporte mensual elaborado 02/11/2023</span>
 
 </div>
 
-Septiembre 2023
+Octubre 2023
 ## Tener presente:
 
 1. Las pérdidas de datos en el totalizador pueden hacer parecer como que los consumos de AA o Iluminación superan al totalizador.
@@ -15,19 +15,18 @@ Septiembre 2023
 4. Es normal que los consumos de AA fluctúen entre días y semanas, producto del clima.
 
 ## Observaciones generales:
-Durante el mes de septiembre se observó que las sedes disminuyeron su consumo en un 4% en promedio en comparación con el mes anterior:
+Durante el mes de octubre se observó que las sedes disminuyeron su consumo en un 4% en promedio en comparación con el mes anterior:
 
-### Sedes que vieron una reducción en el consumo en comparación al mes de septiembre respecto a agosto:
-- IWANNA
-- MAYALES
-- EL BOSQUE
-- BUGANVILES
+### Sedes que vieron una reducción en el consumo en comparación al mes de octubre respecto a septiembre:
+- BELLO
+- ASTROCENTRO
+- PALMIRA
 
 
-### Sedes que vieron un incremento en el consumo en comparación al mes de septiembre respecto a agosto:
+<!-- ### Sedes que vieron un incremento en el consumo en comparación al mes de octubre respecto a septiembre:
 - CALLE 10
 - GIRARDOT
-- PUERTAS DEL NORTE
+- PUERTAS DEL NORTE -->
 
 
 
@@ -52,13 +51,15 @@ Durante el mes de septiembre se observó que las sedes disminuyeron su consumo e
 
 <!-- ### BC 90 - Megamall -->
 
-<!-- ### BC 185 - Llano Grande Palmira
+### BC 185 - Llano Grande Palmira
+
+- La sede presentó un aumento en su consumo entre el 20 y el 25 de octubre; sus consumos se normalizaron.
 
 <!-- Se han logrado ahorros de 399 kWh para el mes de Septiembre gracias a la corrección de los consumos atípicos durante los fines de semana mediante ajustes en la automatización. -->
 
 ### BC 197 - Guatapuri
 
-- Se debe revisa la carga de AA, la cual presenta un cambio en el patrón de consumo para el mes de septiembre.
+- La sede presenta un consumo atípico, lo cual se sugiere revisar en campo para descartar alguna novedad en las medidas.
 
 <!-- ### BC 205 - Villa Colombia -->
 
@@ -84,7 +85,9 @@ Durante el mes de septiembre se observó que las sedes disminuyeron su consumo e
 
 - Cambio en el patrón de consumo de la carga AA, la sede se encuentra en gestión (SOPORTICA -CELSIA).
 
-<!-- ### BC 311 - Bello -->
+### BC 311 - Bello
+
+- La sede experimentó una disminución en el consumo de 1258 kWh en comparación con el mes de septiembre.
 
 <!-- Se ha identificado una novedad en el consumo de energía en la sede durante los días festivos. -->
 
@@ -94,13 +97,11 @@ Durante el mes de septiembre se observó que las sedes disminuyeron su consumo e
 
 <!-- ### BC 398 - Mariquita -->
 
-### BC 424 - Honda
-
-- La sede presentó un cambio en el patrón de consumo del 23 al 26 de septiembre.
+<!-- ### BC 424 - Honda -->
 
 ### BC 453 - Pitalito
 
-- La sede presentó un cambio en el patrón de consumo a partir 25 de septiembre por trabajos en la sede.
+- La sede presentó un cambio en el patrón de consumo a partir 25 de septiembre por trabajos en la sede
 
 <!-- ### BC 454 - Quinta Avenida  
 
@@ -120,9 +121,9 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!-- Se presenta alerta por carga climitazación en horario nocturno para el sabado 22 agosto. Validar si se presentaron trabajos en la sede. -->
 
-### BC 496 - Iwanna
+<!-- ### BC 496 - Iwanna
 
-- Los trabajos en la sede finalizaron el 4 de septiembre y se observó una disminución de 1,711 kWh en el consumo en septiembre en comparación con el mes de agosto.
+- Los trabajos en la sede finalizaron el 4 de septiembre y se observó una disminución de 1,711 kWh en el consumo en septiembre en comparación con el mes de agosto. esta sede es un ejemplo de los ahorros -->
 
 <!--### BC 514 - Centro Comercial Único -->
 
@@ -150,18 +151,20 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 <!-- Se desmonto monitoreo por adecuación en la sede entra fase 2.-->
 
 
-<!-- ### BC 750 - Roosevelt -->
+### BC 750 - Roosevelt
 
-<!-- ### BC 764 - Jamundí -->
+- Se ha detectado una novedad en la medida totalizadora de la sede, por lo que es necesario realizar una revisión en el sitio.
 
-### BC 776 - Lebrija
+### BC 764 - Jamundí
 
-- Se debe validar la carga totalizadora, ya que presenta un cambio en el patrón de consumo a partir del 11 de septiembre.
+- La sede presentó una novedad en el consumo durante los fines de semana durante el mes de octubre. Esta novedad ya ha sido resuelta.
 
-### BC 784 - Centro Colon
+<!-- ### BC 776 - Lebrija
 
-- Se ha identificado una novedad en el consumo de energía en la sede durante los días festivos. Se requiere validar y solucionar novedad de aire acondicionado para lograr una disminución en el consumo durante estos días especiales.
+- Se debe validar la carga totalizadora, ya que presenta un cambio en el patrón de consumo a partir del 11 de septiembre. -->
 
+<!-- ### BC 784 - Centro Colon -->
+ 
 <!-- Consumo irregular con respecto a la línea base (revsar tablero interactivo para junior información).  -->
 
 <!-- ### BC 787 - Bocagrande Carrera Tercera -->
@@ -172,15 +175,13 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 ### BC 793 - Profesionales
 
-- La sede presentó un cambio en el patrón de consumo a partir 16 al 25 de septiembre por trabajos en la sede.
+- La sede presentó un cambio en el patrón de consumo a partir del 15 de octubre.
 
 <!-- ### BC 796 - Girón -->
 
 <!-- ### BC 799 - Floridablanca -->
 
-### BC 816 - Calle 10
-
-- La sede presentó un cambio en el patrón de consumo a partir 18 septiembre en el sistema AA.
+<!-- ### BC 816 - Calle 10  -->
 
 <!-- ### BC 824 - Ventura Plaza -->
 
