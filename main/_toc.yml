@@ -32,7 +32,6 @@ chapters:
   - file: notebooks/individual/Notebook BC 495 - El Bosque
   - file: notebooks/individual/Notebook BC 496 - Iwanna
   - file: notebooks/individual/Notebook BC 514 - Centro Comercial Único
-  - file: notebooks/individual/Notebook BC 524 - S.A. Valledupar
   - file: notebooks/individual/Notebook BC 523 - Olímpica
   - file: notebooks/individual/Notebook BC 534 - Buganviles
   - file: notebooks/individual/Notebook BC 613 - La America
@@ -57,5 +56,6 @@ chapters:
   - file: notebooks/individual/Notebook BC 829 - Unicentro Cali
   - file: notebooks/individual/Notebook BC 834 - San Mateo
   - file: notebooks/individual/Notebook BC 863 - Los Patios
+  - file: notebooks/individual/Notebook BC 524 - S.A. Valledupar
   - file: notebooks/individual/Notebook BC 821 GRANADA CALI
   #- file: notebooks/individual/Notebook BC - Sede Adm Twins bay

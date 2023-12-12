@@ -5,9 +5,9 @@
 # 
 # # Resumen
 # 
-# Octubre de 2023
+# Noviembre de 2023
 
-# ¡Hola!, te presentamos el informe correspondiente a tus consumos del mes de octubre 2023. A continuación vas a encontrar un resumen de los consumos realizados de forma acumulada. Para esto encontrarás una serie de gráficas diseñadas para dar un vistazo a los consumos por sede. Finalmente, encontrarás un informe detallado para cada sede.
+# ¡Hola!, te presentamos el informe correspondiente a tus consumos del mes de noviembre 2023. A continuación vas a encontrar un resumen de los consumos realizados de forma acumulada. Para esto encontrarás una serie de gráficas diseñadas para dar un vistazo a los consumos por sede. Finalmente, encontrarás un informe detallado para cada sede.
 
 # ## Definitions
 # 
@@ -174,7 +174,7 @@ intensity = df_info_vs_cons[['device_name', 'yearly_kwh_per_m2']].sort_values(by
 # In[8]:
 
 
-sizes = sizes.query("device_name != 'BC 197 - Guatapuri'")
+sizes = sizes.query("device_name != 'BC 821 GRANADA CALI'")
 
 fig = px.bar(
     sizes.round(2), 
@@ -257,7 +257,7 @@ fig.update_layout(title_text="Mapa de intensidad de consumo [kWh/m^2-año]", fon
 fig.show()
 
 
-# De las sedes monitoreadas las que presentan mayor intensidad de consumo son Paseo de la castellana, Centro Colón, Jamundi y Ventura plaza. También podemos notar que en general entre sedes cercanas hay intensidades de consumo similares.
+# De las sedes monitoreadas las que presentan mayor intensidad de consumo son Paseo de la castellana, Jamundi, Megamall y Pitalito. También podemos notar que en general entre sedes cercanas hay intensidades de consumo similares.
 
 # In[11]:
 
@@ -454,7 +454,7 @@ fig = go.Figure(data=[go.Sankey(
                       'BC 764 - Jamundí',                 
                       'BC 424 - Honda',                   
                       'BC 613 - La America',              
-                     #'BC 197 - Guatapuri',               
+                      'BC 197 - Guatapuri',               
                       'BC 776 - Lebrija',                 
                       'BC 792 - Paseo del comercio',      
                       'BC 061 - Carrera Primera',         

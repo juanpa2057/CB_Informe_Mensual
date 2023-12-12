@@ -2,11 +2,11 @@
 
 <div align="right">
 
-<span style="font-size: smaller;">Reporte mensual elaborado 02/11/2023</span>
+<span style="font-size: smaller;">Reporte mensual elaborado 07/12/2023</span>
 
 </div>
 
-Octubre 2023
+Noviembre 2023
 ## Tener presente:
 
 1. Las pérdidas de datos en el totalizador pueden hacer parecer como que los consumos de AA o Iluminación superan al totalizador.
@@ -15,18 +15,16 @@ Octubre 2023
 4. Es normal que los consumos de AA fluctúen entre días y semanas, producto del clima.
 
 ## Observaciones generales:
-Durante el mes de octubre se observó que las sedes disminuyeron su consumo en un 4% en promedio en comparación con el mes anterior:
+Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en un 4% en promedio en comparación con el mes anterior:
 
-### Sedes que vieron una reducción en el consumo en comparación al mes de octubre respecto a septiembre:
-- BELLO
-- ASTROCENTRO
-- PALMIRA
-
-
-<!-- ### Sedes que vieron un incremento en el consumo en comparación al mes de octubre respecto a septiembre:
+### Sedes que vieron una reducción en el consumo en comparación al mes de Noviembre respecto a Octubre:
+- CENTRO COLON
 - CALLE 10
-- GIRARDOT
-- PUERTAS DEL NORTE -->
+- LOS PATIOS
+
+
+<!-- ### Sedes que vieron un incremento en el consumo en comparación al mes de Noviembre respecto a Octubre:
+- BANCA COLOMBIA CARTAGENA  -->
 
 
 
@@ -39,11 +37,12 @@ Durante el mes de octubre se observó que las sedes disminuyeron su consumo en u
 
 ### BC 061 - Carrera Primera
 
-- Es necesario validar las cargas durante el horario no laboral ya que se registra un consumo promedio de 10 kWh, lo que representa un nivel de consumo significativo para la sede.
+- Se normaliza la novedad en la carga de aire acondicionado fuera del horario laboral a partir del 25 de noviembre, lo que resultará en una disminución en el consumo de energía y se reflejará en ahorros.
+
 
 <!-- ### BC 66 - Palmira -->
 
-<!-- La sede ha logrado reducir su consumo en un 7% con respecto al mes anterior, lo que indica que se ha tenido en cuenta la recomendación de encender el aire acondicionado a partir de las 7:00 am. Esta medida ha generado ahorros de 649 kWh en el mes de Septiembre. -->
+<!-- La sede ha logrado reducir su consumo en un 7% con respecto al mes anterior, lo que indica que se ha tenido en cuenta la recomendación de encender el aire acondicionado a partir de las 7:00 am. Esta medida ha generado ahorros de 649 kWh en el mes de Octubre. -->
 
 <!-- ### BC 78 - El Cacique -->
 
@@ -51,21 +50,23 @@ Durante el mes de octubre se observó que las sedes disminuyeron su consumo en u
 
 <!-- ### BC 90 - Megamall -->
 
-### BC 185 - Llano Grande Palmira
+<!-- ### BC 185 - Llano Grande Palmira
 
-- La sede presentó un aumento en su consumo entre el 20 y el 25 de octubre; sus consumos se normalizaron.
+- La sede presentó un aumento en su consumo entre el 20 y el 25 de Noviembre; sus consumos se normalizaron. -->
 
-<!-- Se han logrado ahorros de 399 kWh para el mes de Septiembre gracias a la corrección de los consumos atípicos durante los fines de semana mediante ajustes en la automatización. -->
+<!-- Se han logrado ahorros de 399 kWh para el mes de Octubre gracias a la corrección de los consumos atípicos durante los fines de semana mediante ajustes en la automatización. -->
 
 ### BC 197 - Guatapuri
 
 - La sede presenta un consumo atípico, lo cual se sugiere revisar en campo para descartar alguna novedad en las medidas.
 
+- Se ha observado que el sistema de aire acondicionado reduce su consumo significativamente después de las 21 horas. Se recomienda evaluar con la sucursal la configuración de apagado del aire acondicionado, que actualmente se establece en promedio a las 18 hora.
+
 <!-- ### BC 205 - Villa Colombia -->
 
-<!-- ### BC 210 - Banca Colombia Cartagena -->
+### BC 210 - Banca Colombia Cartagena
 
-<!-- Validar que trabajo se realizo el 20 junio debido a que bajo el consumo de la carga de AA en las horas nocturnas, replicar acción de mejora en otras sedes. -->
+- La sede presentó novedades en los consumos nocturnos de aire acondicionado para los días 8 y 9 de noviembre.
 
 <!-- ### BC 205 - Villa Colombia -->
 
@@ -73,21 +74,19 @@ Durante el mes de octubre se observó que las sedes disminuyeron su consumo en u
 
 ### BC 253 - Puerta del Norte
 
-- Se ha observado que el sistema de aire acondicionado reduce su consumo significativamente después de las 21 horas. Se recomienda evaluar con la sucursal la configuración de apagado del aire acondicionado, que actualmente se establece en promedio a las 18 hora.
+- La sede corrige la novedad de apagar el aire acondicionado a las 21 horas, cambiándolo a las 19 horas, lo cual resulta en una disminución del 8.3% en comparación con octubre.
 
 <!--### BC 291 - Las Palmas -->
 
 <!-- ### BC 302 - Quebrada Seca -->
 
-### BC 306 - Barrancabermeja
+<!-- ### BC 306 - Barrancabermeja
 
 - Se ha identificado una novedad en el consumo de energía en la sede durante los días festivos. Se requiere validar y solucionar novedad de aire acondicionado para lograr una disminución en el consumo durante estos días especiales.
 
-- Cambio en el patrón de consumo de la carga AA, la sede se encuentra en gestión (SOPORTICA -CELSIA).
+- Cambio en el patrón de consumo de la carga AA, la sede se encuentra en gestión (SOPORTICA -CELSIA).-->
 
-### BC 311 - Bello
-
-- La sede experimentó una disminución en el consumo de 1258 kWh en comparación con el mes de septiembre.
+<!--### BC 311 - Bello -->
 
 <!-- Se ha identificado una novedad en el consumo de energía en la sede durante los días festivos. -->
 
@@ -97,15 +96,17 @@ Durante el mes de octubre se observó que las sedes disminuyeron su consumo en u
 
 <!-- ### BC 398 - Mariquita -->
 
-<!-- ### BC 424 - Honda -->
+### BC 424 - Honda
 
-### BC 453 - Pitalito
+- Se ha identificado una novedad en la sede, donde el consumo de aire acondicionado es superior al registrado en el totalizador.
 
-- La sede presentó un cambio en el patrón de consumo a partir 25 de septiembre por trabajos en la sede
+<!--### BC 453 - Pitalito
 
+- La sede presentó un cambio en el patrón de consumo a partir 25 de Octubre por trabajos en la sede --> 
+ 
 <!-- ### BC 454 - Quinta Avenida  
 
-- La sede experimentó un cambio en el patrón de consumo a partir del 1 al 14 de Septiembre, lo que resultó en un aumento de 2097 kWh en comparación con el mes de agosto.-->
+- La sede experimentó un cambio en el patrón de consumo a partir del 1 al 14 de Octubre, lo que resultó en un aumento de 2097 kWh en comparación con el mes de agosto.-->
 
 
 <!-- Se ha normalizado la medida a partir del 10 agosto, se incluye en el dashboard e informe de control. Es
@@ -123,11 +124,13 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!-- ### BC 496 - Iwanna
 
-- Los trabajos en la sede finalizaron el 4 de septiembre y se observó una disminución de 1,711 kWh en el consumo en septiembre en comparación con el mes de agosto. esta sede es un ejemplo de los ahorros -->
+- Los trabajos en la sede finalizaron el 4 de Octubre y se observó una disminución de 1,711 kWh en el consumo en Octubre en comparación con el mes de agosto. esta sede es un ejemplo de los ahorros -->
 
 <!--### BC 514 - Centro Comercial Único -->
 
-<!--### BC 523 - Olímpica -->
+### BC 523 - Olímpica
+
+- Se ha identificado un cambio en el patrón de consumo a partir del 24 de noviembre. Se recomienda verificar si se están llevando a cabo trabajos en la sede; de lo contrario, se sugiere realizar una validación en el sitio para descartar posibles fallas en el sistema de aire acondicionado.
 
 <!-- ### BC 534 - Buganviles -->
 
@@ -153,29 +156,33 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 ### BC 750 - Roosevelt
 
-- Se ha detectado una novedad en la medida totalizadora de la sede, por lo que es necesario realizar una revisión en el sitio.
+- Se presenta una novedad en la sede a partir del 28 de septiembre, donde la carga de aire acondicionado es mayor que la del totalizador. Se debe validar la corriente L2 de la medida totalizadora.
 
-### BC 764 - Jamundí
+<!-- ### BC 764 - Jamundí
 
-- La sede presentó una novedad en el consumo durante los fines de semana durante el mes de octubre. Esta novedad ya ha sido resuelta.
+- La sede presentó una novedad en el consumo durante los fines de semana durante el mes de Noviembre. Esta novedad ya ha sido resuelta.-->
+
 
 <!-- ### BC 776 - Lebrija
 
-- Se debe validar la carga totalizadora, ya que presenta un cambio en el patrón de consumo a partir del 11 de septiembre. -->
+- Se debe validar la carga totalizadora, ya que presenta un cambio en el patrón de consumo a partir del 11 de Octubre. -->
 
-<!-- ### BC 784 - Centro Colon -->
+### BC 784 - Centro Colon
+
+- Se evidencia que los consumos de la sede se normalizan a partir del 10 de noviembre, lo cual resulta en una disminución del consumo de energía de 1,782 en comparación con octubre.
  
 <!-- Consumo irregular con respecto a la línea base (revsar tablero interactivo para junior información).  -->
 
-<!-- ### BC 787 - Bocagrande Carrera Tercera -->
+### BC 787 - Bocagrande Carrera Tercera
 
+- Se ha observado una disminución en el consumo de energía en la sede hasta el 14 de noviembre debido a que la sede estaba bajo mantenimiento operativo.
 <!-- ### BC 789 - Manga -->
 
 <!-- ### BC 792 - Paseo del comercio -->
 
 ### BC 793 - Profesionales
 
-- La sede presentó un cambio en el patrón de consumo a partir del 15 de octubre.
+- La sede presentó un cambio en el patrón de consumo a partir del 15 de Noviembre.
 
 <!-- ### BC 796 - Girón -->
 

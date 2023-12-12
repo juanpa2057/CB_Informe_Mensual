@@ -4,10 +4,10 @@ NIGHT_HOURS = [0, 1, 2, 3, 4, 5, 19, 20, 21, 22, 23]
 # last baseline date must be the same
 # date as start of study. Basically all
 # dates must be mondays.
-BASELINE = ['2023-07-01', '2023-09-30']
-STUDY = ['2023-10-01', '2023-11-01']
+BASELINE = ['2023-08-01', '2023-10-31']
+STUDY = ['2023-11-01', '2023-12-01']
 
-MONTH_NAME = 'Octubre'
+MONTH_NAME = 'Noviembre'
 
 DATE_INTERVALS_TO_DISCARD = {
 }
