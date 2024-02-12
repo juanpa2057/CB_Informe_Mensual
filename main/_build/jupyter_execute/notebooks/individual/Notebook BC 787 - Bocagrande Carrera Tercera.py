@@ -86,7 +86,7 @@ show_response_contents(df)
 df = df.sort_values(by=['variable','datetime'])
 df = pro.datetime_attributes(df)
 
-df_bl, df_st = pro.split_into_baseline_and_study(df, baseline=cfg.BASELINE, study=cfg.STUDY, inclusive='left')
+df_bl, df_st, df_pm = pro.split_total(df, baseline=cfg.BASELINE, study=cfg.STUDY, past_month=cfg.PAST_MONTH, inclusive='left')
 
 study_daterange = pd.Series(pd.date_range(start=cfg.STUDY[0], end=cfg.STUDY[1], freq='D'))
 
@@ -106,12 +106,20 @@ study_daterange = pd.Series(pd.date_range(start=cfg.STUDY[0], end=cfg.STUDY[1], 
 df_pa = df.query("variable == 'front-potencia-activa'").copy()
 cargas = df_st[df_st["variable"].isin(cfg.ENERGY_VAR_LABELS)].copy()
 front = df_st[df_st["variable"].isin(['front-consumo-activa'])].copy()
-front_reactiva = df_st[df_st["variable"].isin(['consumo-energia-reactiva-total'])].copy()
+front_pastmonth = df_pm[df_pm["variable"].isin(['front-consumo-activa'])].copy()
+#front_reactiva = df_st[df_st["variable"].isin(['consumo-energia-reactiva-total'])].copy()
+
+front_past = df_bl[df_bl["variable"].isin(['front-consumo-activa'])].copy()
+meses = pd.concat([front_past, front])
 
 df_pa = cln.remove_outliers_by_zscore(df_pa, zscore=4)
 cargas = cln.remove_outliers_by_zscore(cargas, zscore=4)
 front = cln.remove_outliers_by_zscore(front, zscore=4)
-front_reactiva = cln.remove_outliers_by_zscore(front, zscore=4)
+#front_reactiva = cln.remove_outliers_by_zscore(front_reactiva, zscore=4)
+front_pastmonth = cln.remove_outliers_by_zscore(front_pastmonth, zscore=4)
+meses = cln.remove_outliers_by_zscore(meses, zscore=4)
+
+meses['value'] = meses['value'].round(2)
 
 
 # In[7]:
@@ -135,13 +143,30 @@ front_day = pro.datetime_attributes(front_day)
 front_month = front.groupby(by=["variable"]).resample('1M').sum().reset_index().set_index('datetime')
 front_month = pro.datetime_attributes(front_month)
 
-front_reactiva_hour = front_reactiva.groupby(by=["variable"]).resample('1h').sum().round(2).reset_index().set_index('datetime')
-front_reactiva_hour = pro.datetime_attributes(front_reactiva_hour)
+#front_reactiva_hour = front_reactiva.groupby(by=["variable"]).resample('1h').sum().round(2).reset_index().set_index('datetime')
+#front_reactiva_hour = pro.datetime_attributes(front_reactiva_hour)
+
+front_pastmonth_month = front_pastmonth.groupby(by=["variable"]).resample('1M').sum().reset_index().set_index('datetime')
+front_pastmonth_month = pro.datetime_attributes(front_pastmonth_month)
+
+front_meses = front.groupby(by=["variable"]).resample('1M').sum().reset_index().set_index('datetime')
+front_month = pro.datetime_attributes(front_month)
+
+meses_agrupados = meses.groupby(['variable', pd.Grouper(freq='M')]).agg({'value': 'sum', 'hour': 'first', 'day': 'first', 'cont_dow': 'first', 'week': 'first', 'month': 'first', 'year': 'first', 'dow': 'first'}).reset_index()
+
+
+# In[8]:
+
+
+meses_calendario = [
+    "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+    "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+]
 
 
 # ## Plots
 
-# In[8]:
+# In[9]:
 
 
 fig = px.bar(
@@ -167,15 +192,41 @@ fig.update_layout(
 fig.show()
 
 
-# In[9]:
+# In[10]:
 
 
 front_cons_total = front_month.iloc[-1]["value"]
-# dif_mes_anterior =front_month.iloc[-1]["value"] - past_months.iloc[-1]["value"]
-print(f"El consumo de energía del mes pasado fue {front_cons_total:.0f}kWh")
+front_pastmonth_total = front_pastmonth_month.iloc[-1]["value"]
+dif_mes_anterior =front_month.iloc[-1]["value"] - front_pastmonth_month.iloc[-1]["value"]
+
+# Obtener el nombre del mes correspondiente al número de mes
+mes_numero = front_month.iloc[-1]["month"]
+mes_anterior = front_pastmonth_month.iloc[-1]["month"]
+
+mes_correspondiente = meses_calendario[int(mes_numero) - 1]
+mes_anterior_2  = meses_calendario[int(mes_anterior) - 1]
+
+# Cálculo de la diferencia de consumo entre el mes actual y el mes anterior
+dif_mes_anterior = front_month.iloc[-1]["value"] - front_pastmonth_month.iloc[-1]["value"]
+
+# Obtener el nombre del mes actual y del mes anterior
+mes_correspondiente = meses_calendario[int(front_month.iloc[-1]["month"]) - 1]
+mes_anterior = meses_calendario[int(front_pastmonth_month.iloc[-1]["month"]) - 1]
+
+print(f"El consumo de energía de {mes_correspondiente} fue {front_cons_total:.0f} kWh")
+
+# Imprimir mensaje según la diferencia de consumo
+if dif_mes_anterior > 0:
+    porcentaje_mas = dif_mes_anterior / front_pastmonth_month.iloc[-1]["value"] * 100
+    print(f"Para el mes de {mes_correspondiente} se consumió {dif_mes_anterior:.0f} kWh más en comparación al mes anterior {mes_anterior} con {front_pastmonth_total:.0f}, lo que representa un {porcentaje_mas:.2f}% más de consumo")
+elif dif_mes_anterior < 0:
+    porcentaje_menos = abs(dif_mes_anterior) / front_pastmonth_month.iloc[-1]["value"] * 100
+    print(f"Para el mes de {mes_correspondiente} se consumió {abs(dif_mes_anterior):.0f} kWh menos en comparación al mes anterior {mes_anterior} con {front_pastmonth_total:.0f}, lo que representa un {porcentaje_menos:.2f}% menos de consumo")
+else:
+    print(f"No hubo cambios en el consumo entre el mes de {mes_correspondiente} y el mes anterior {mes_anterior}")
 
 
-# In[10]:
+# In[11]:
 
 
 df_front_cargas = pd.concat([front, cargas])
@@ -215,7 +266,7 @@ if (cargas_daily_nighttime_cons.shape[0] > 0):
     fig.show()
 
 
-# In[11]:
+# In[12]:
 
 
 total_night_cons = cargas_daily_nighttime_cons.query("variable == 'front-consumo-activa'")
@@ -224,7 +275,7 @@ consumo_nocturno = total_night_cons["value"].sum()
 print(f"Durante el mes pasado se consumió un total de {consumo_nocturno:.0f}kWh fuera del horario establecido.")
 
 
-# In[12]:
+# In[13]:
 
 
 total_night_cons = cargas_daily_nighttime_cons.query("variable == 'front-consumo-activa'")
@@ -235,7 +286,7 @@ night_cons_percent = 100 * consumo_nocturno / front_cons_total
 print(f"El consumo nocturno representó el {night_cons_percent:.1f}% del consumo total")
 
 
-# In[13]:
+# In[14]:
 
 
 cargas_cons_total = cargas_month['value'].sum()
@@ -284,7 +335,7 @@ if (df_pie.value >= 0).all():
     fig.show()
 
 
-# In[14]:
+# In[15]:
 
 
 df_plot = pd.concat([front_hour, cargas_hour])
@@ -335,7 +386,7 @@ fig.update_yaxes(rangemode="tozero")
 fig.show()
 
 
-# In[15]:
+# In[16]:
 
 
 df_pa_bl, df_pa_st = pro.split_into_baseline_and_study(df_pa, baseline=cfg.BASELINE, study=cfg.STUDY, inclusive='both')
@@ -397,7 +448,7 @@ if (len(df_pa_bl) > 0) & (len(df_pa_st) > 0):
     )
 
 
-# In[16]:
+# In[17]:
 
 
 matrix = front_hour.pivot(index='day', columns='hour', values='value')
@@ -410,7 +461,7 @@ if (matrix.shape[0] > 0) & (matrix.shape[1] > 0):
     )
 
 
-# In[17]:
+# In[18]:
 
 
 matrix = (
@@ -427,8 +478,10 @@ if (matrix.shape[0] > 0) & (matrix.shape[1] > 0):
     )
 
 
-# In[18]:
+# In[19]:
 
+
+"""
 
 matrix = (
     front_reactiva_hour
@@ -442,4 +495,39 @@ if (matrix.shape[0] > 0) & (matrix.shape[1] > 0):
         data,
         title=f"Cargas: Consumo total de energía reactiva [kVArh] en {month_name}"
     )
+
+
+"""
+
+
+# In[20]:
+
+
+meses_agrupados['fecha'] = meses_agrupados['month'].astype(str) + '-' + meses_agrupados['year'].astype(str)
+
+fig = px.bar(
+    pd.concat([meses_agrupados]),
+    x="fecha",
+    y="value",
+    barmode='group',
+    color='variable',
+    color_discrete_sequence=repcfg.FULL_PALETTE,
+    labels={'month':'Mes', 'value':'Consumo [kWh/mes]'},
+    title=f"{DEVICE_NAME}: Consumo mensuales de energía activa [kWh/Mes]",
+)
+
+fig.add_hline(y=meses_agrupados['value'].mean(), line_dash="dash", line_color=repcfg.FULL_PALETTE[1], annotation_text=f"Línea base: {meses_agrupados['value'].mean():.2f} kWh/dia", annotation_position="top left")
+
+
+fig.update_layout(
+    font_family=repcfg.CELSIA_FONT,
+    font_size=repcfg.PLOTLY_TITLE_FONT_SIZE,
+    font_color=repcfg.FULL_PALETTE[1],
+    title_x=repcfg.PLOTLY_TITLE_X,
+    width=repcfg.JBOOK_PLOTLY_WIDTH,
+    height=repcfg.JBOOK_PLOTLY_HEIGHT
+)
+
+fig.show()
+
 

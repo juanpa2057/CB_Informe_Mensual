@@ -2,11 +2,9 @@
 
 <div align="right">
 
-<span style="font-size: smaller;">Reporte mensual elaborado 07/12/2023</span>
-
 </div>
 
-Noviembre 2023
+Enero 2024
 ## Tener presente:
 
 1. Las pérdidas de datos en el totalizador pueden hacer parecer como que los consumos de AA o Iluminación superan al totalizador.
@@ -14,6 +12,7 @@ Noviembre 2023
 3. Las sedes con consumos nocturnos de AA son la mejor oportunidad de ahorro. Es importante identificar cuáles exhiben este patrón porque realmente se encienden los aires, y cuáles simplemente tienen otros equipos conectados al circuito de AA.
 4. Es normal que los consumos de AA fluctúen entre días y semanas, producto del clima.
 
+<!--
 ## Observaciones generales:
 Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en un 4% en promedio en comparación con el mes anterior:
 
@@ -26,19 +25,18 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 <!-- ### Sedes que vieron un incremento en el consumo en comparación al mes de Noviembre respecto a Octubre:
 - BANCA COLOMBIA CARTAGENA  -->
 
-
+-->
 
 ## Observaciones específicas:
 
+ ### BC 044 - Piedecuesta
 
-<!-- ### BC 044 - Piedecuesta
+- El consumo de energía de Enero fue 8287 kWh. Para el mes de Enero se consumió 939 kWh más en comparación al mes anterior Diciembre con 7348, lo que representa un 12.79% más de consumo, debido a que se presentaron consumos nocturnos del 15 al 18 de enero.
 
-- Para la sede BC Piedecuesta, se realizó la normalización del punto de medida Frontera y de los AA el 02/05/2025. Como resultado, se observó que el consumo del mes de junio es superior al valor de referencia establecido en la línea base la cual presentaba novedad para carga AA. -->
+<!--### BC 061 - Carrera Primera
 
-### BC 061 - Carrera Primera
-
-- Se normaliza la novedad en la carga de aire acondicionado fuera del horario laboral a partir del 25 de noviembre, lo que resultará en una disminución en el consumo de energía y se reflejará en ahorros.
-
+- En diciembre, el consumo de energía fue 2,296 kWh menor en comparación con el mes anterior noviembre que registró un consumo de 10,291 kWh. Esto representa una disminución del 22.31% en el consumo. Este cambio se debe a un ajuste en el patrón de consumo de la sede a partir del 30 de noviembre.
+-->
 
 <!-- ### BC 66 - Palmira -->
 
@@ -50,9 +48,10 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 <!-- ### BC 90 - Megamall -->
 
-<!-- ### BC 185 - Llano Grande Palmira
+### BC 185 - Llano Grande Palmira
 
-- La sede presentó un aumento en su consumo entre el 20 y el 25 de Noviembre; sus consumos se normalizaron. -->
+- El consumo de energía de Enero fue 5656 kWh. Para el mes de Enero se consumió 782 kWh más en comparación al mes anterior Diciembre con 4874, lo que representa un 16.05% más de consumo, debido a que se presentaron consumos nocturnos a partir del 23 de enero por cambio en el patrón de consumo.
+
 
 <!-- Se han logrado ahorros de 399 kWh para el mes de Octubre gracias a la corrección de los consumos atípicos durante los fines de semana mediante ajustes en la automatización. -->
 
@@ -66,15 +65,15 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 ### BC 210 - Banca Colombia Cartagena
 
-- La sede presentó novedades en los consumos nocturnos de aire acondicionado para los días 8 y 9 de noviembre.
+- Se ha observado una disminución en el consumo de energía en la sede debido a labores de mantenimiento operativo que se estaban llevando a cabo desde el 29 de noviembre.
 
 <!-- ### BC 205 - Villa Colombia -->
 
 <!-- ### BC 216 - Sabana de Torres -->
 
-### BC 253 - Puerta del Norte
+<!--### BC 253 - Puerta del Norte
 
-- La sede corrige la novedad de apagar el aire acondicionado a las 21 horas, cambiándolo a las 19 horas, lo cual resulta en una disminución del 8.3% en comparación con octubre.
+- La sede corrige la novedad de apagar el aire acondicionado a las 21 horas, cambiándolo a las 19 horas, lo cual resulta en una disminución del 8.3% en comparación con octubre. -->
 
 <!--### BC 291 - Las Palmas -->
 
@@ -96,18 +95,16 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 <!-- ### BC 398 - Mariquita -->
 
-### BC 424 - Honda
+<!--### BC 424 - Honda
 
-- Se ha identificado una novedad en la sede, donde el consumo de aire acondicionado es superior al registrado en el totalizador.
-
+- Se ha identificado una novedad en la sede, donde el consumo de aire acondicionado es superior al registrado en el totalizador. -->
 <!--### BC 453 - Pitalito
 
 - La sede presentó un cambio en el patrón de consumo a partir 25 de Octubre por trabajos en la sede --> 
  
-<!-- ### BC 454 - Quinta Avenida  
+### BC 454 - Quinta Avenida  
 
-- La sede experimentó un cambio en el patrón de consumo a partir del 1 al 14 de Octubre, lo que resultó en un aumento de 2097 kWh en comparación con el mes de agosto.-->
-
+- La sede experimentó un cambio en el patrón de consumo a partir del 17 de Diciembre, validar si se presentaron trabajos en la sede.
 
 <!-- Se ha normalizado la medida a partir del 10 agosto, se incluye en el dashboard e informe de control. Es
 importante tener en cuenta que se está construyendo la línea base para futuras referencias. -->
@@ -118,7 +115,9 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!-- Pendiente de actualización de firmware. -->
 
-<!-- ### BC 495 - El Bosque -->
+### BC 495 - El Bosque 
+
+- El consumo de energía de Enero fue 8624 kWh. Para el mes de Enero se consumió 1255 kWh más en comparación al mes anterior Diciembre con 7369, lo que representa un 17.03% más de consumo, debido a que se presentaron consumos nocturnos a partir del 23 de enero por cambio en el patrón de consumo.
 
 <!-- Se presenta alerta por carga climitazación en horario nocturno para el sabado 22 agosto. Validar si se presentaron trabajos en la sede. -->
 
@@ -130,7 +129,7 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 ### BC 523 - Olímpica
 
-- Se ha identificado un cambio en el patrón de consumo a partir del 24 de noviembre. Se recomienda verificar si se están llevando a cabo trabajos en la sede; de lo contrario, se sugiere realizar una validación en el sitio para descartar posibles fallas en el sistema de aire acondicionado.
+- Se ha identificado un cambio en el patrón de consumo a partir del 24 de noviembre. Se sugiere realizar una validación en el sitio para descartar posibles fallas en el sistema de aire acondicionado.
 
 <!-- ### BC 534 - Buganviles -->
 
@@ -169,26 +168,31 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 ### BC 784 - Centro Colon
 
-- Se evidencia que los consumos de la sede se normalizan a partir del 10 de noviembre, lo cual resulta en una disminución del consumo de energía de 1,782 en comparación con octubre.
- 
+- Se evidencia que los consumos de la sede se normalizan a partir del 10 de noviembre. Para los meses de noviembre y diciembre se ha presentados ahorros.
+
+- El consumo de energía de Enero fue 5854 kWh. Para el mes de Enero se consumió 368 kWh menos en comparación al mes anterior Diciembre con 6222, lo que representa un 5.92% menos de consumo
+
 <!-- Consumo irregular con respecto a la línea base (revsar tablero interactivo para junior información).  -->
 
-### BC 787 - Bocagrande Carrera Tercera
+<!-- ### BC 787 - Bocagrande Carrera Tercera
 
-- Se ha observado una disminución en el consumo de energía en la sede hasta el 14 de noviembre debido a que la sede estaba bajo mantenimiento operativo.
+- Se ha observado una disminución en el consumo de energía en la sede hasta el 14 de noviembre debido a que la sede estaba bajo mantenimiento operativo.-->
 <!-- ### BC 789 - Manga -->
 
 <!-- ### BC 792 - Paseo del comercio -->
 
 ### BC 793 - Profesionales
 
-- La sede presentó un cambio en el patrón de consumo a partir del 15 de Noviembre.
+- La sede presentó un cambio en el patrón de consumo que fue normalizado para el 13 enero. Durante el mes enero se consumió un total de 1982kWh fuera del horario establecido.
 
 <!-- ### BC 796 - Girón -->
 
 <!-- ### BC 799 - Floridablanca -->
 
-<!-- ### BC 816 - Calle 10  -->
+<!--  ### BC 816 - Calle 10 
+
+- El consumo de energía de Diciembre fue 6523 kWh. Para el mes de Diciembre se consumió 686 kWh menos en comparación al mes anterior Noviembre con 7208, lo que representa un 9.51% menos de consumo. -->
+
 
 <!-- ### BC 824 - Ventura Plaza -->
 

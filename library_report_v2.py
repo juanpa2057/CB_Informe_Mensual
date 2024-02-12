@@ -359,6 +359,13 @@ class Processing:
         is_baseline_range = df.index.to_series().between(baseline[0], baseline[1], inclusive=inclusive)
         is_study_range = df.index.to_series().between(study[0], study[1], inclusive=inclusive)
         return (df[is_baseline_range], df[is_study_range])
+    
+    def split_total(df, baseline=None, study=None, past_month=None, inclusive='both'):
+        # slicing the wrong way can produce warnings or simply fail. Use this:
+        is_baseline_range = df.index.to_series().between(baseline[0], baseline[1], inclusive=inclusive)
+        is_study_range = df.index.to_series().between(study[0], study[1], inclusive=inclusive)
+        is_pastmonth_range = df.index.to_series().between(past_month[0], past_month[1], inclusive=inclusive)
+        return (df[is_baseline_range], df[is_study_range], df[is_pastmonth_range])
 
 class Graphing:
     # abbreviated as grp
