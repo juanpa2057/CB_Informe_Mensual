@@ -481,28 +481,6 @@ if (matrix.shape[0] > 0) & (matrix.shape[1] > 0):
 # In[19]:
 
 
-"""
-
-matrix = (
-    front_reactiva_hour
-    .groupby(by=["day","hour"]).sum().reset_index()
-    .pivot(index='day', columns='hour', values='value')
-)
-
-if (matrix.shape[0] > 0) & (matrix.shape[1] > 0):
-    data = grp.pivoted_dataframe_to_plotly_heatmap(matrix)
-    grp.hourly_heatmap(
-        data,
-        title=f"Cargas: Consumo total de energía reactiva [kVArh] en {month_name}"
-    )
-
-
-"""
-
-
-# In[20]:
-
-
 meses_agrupados['fecha'] = meses_agrupados['month'].astype(str) + '-' + meses_agrupados['year'].astype(str)
 
 fig = px.bar(
