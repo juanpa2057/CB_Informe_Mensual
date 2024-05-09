@@ -4,7 +4,7 @@
 
 </div>
 
-Marzo 2024
+Abril 2024
 ## Tener presente:
 
 1. Las pérdidas de datos en el totalizador pueden hacer parecer como que los consumos de AA o Iluminación superan al totalizador.
@@ -26,9 +26,9 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 ## Observaciones específicas:
 
- <!--### BC 044 - Piedecuesta
+### BC 044 - Piedecuesta
 
-- El consumo de energía de Enero fue 8287 kWh. Para el mes de Enero se consumió 939 kWh más en comparación al mes anterior Diciembre con 7348, lo que representa un 12.79% más de consumo, debido a que se presentaron consumos nocturnos del 15 al 18 de enero. -->
+- Durante el mes de abril, el consumo de energía aumentó en 1521 kWh con respecto al mes anterior lo que representa un aumento del 20.59%. Este incremento en el consumo de energía está asociado al aumento de la temperatura durante las horas laborales hábiles.
 
 <!--### BC 061 - Carrera Primera
 
@@ -37,15 +37,15 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 <!-- En diciembre, el consumo de energía fue 2,296 kWh menor en comparación con el mes anterior noviembre que registró un consumo de 10,291 kWh. Esto representa una disminución del 22.31% en el consumo. Este cambio se debe a un ajuste en el patrón de consumo de la sede a partir del 30 de noviembre.
 -->
 
-### BC 66 - Palmira
-
--Para el mes de Marzo se consumió 258 kWh menos en comparación al mes anterior Febrero con 8452, lo que representa un 3.06% menos de consumo.
+<!-- ### BC 66 - Palmira -->
 
 <!-- La sede ha logrado reducir su consumo en un 7% con respecto al mes anterior, lo que indica que se ha tenido en cuenta la recomendación de encender el aire acondicionado a partir de las 7:00 am. Esta medida ha generado ahorros de 649 kWh en el mes de Octubre. -->
 
 <!-- ### BC 78 - El Cacique  -->
 
-<!-- ### BC 88 - Cúcuta -->
+### BC 88 - Cúcuta 
+
+- Se debe revisar la carga del sistema de AA, la cual representa el 93.9% del consumo total.
 
 <!-- ### BC 90 - Megamall
 
@@ -60,56 +60,54 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 ### BC 197 - Guatapuri
 
-- Se recomienda verificar el funcionamiento del AA, durante los días festivos, ya que no se observa una reducción en el consumo de energía durante esos días.
-
-- Se ha observado que el sistema de aire acondicionado reduce su consumo significativamente después de las 21 horas. Se recomienda evaluar con la sucursal la configuración de apagado del aire acondicionado, que actualmente se establece en promedio a las 18 hora.
+- El consumo de energía de Abril fue 9290 kWh, se consumió 1348 kWh más en comparación al mes anterior Marzo, lo que representa un 16.97% más de consumo.
 
 <!-- ### BC 205 - Villa Colombia -->
 
 ### BC 210 - Banca Colombia Cartagena
 
-- La sede presento un cambio en el patrón de consumo del 11 al 15 marzo en el consumo de los AA. 
+- La sede estaba en mantenimientos operativos lo cual se ve un aunmento respecto a la linea base.
 
 <!-- La sede estuvo en mantenimiento operativo del 29 noviembre del 2023  hasta el 12 de febrero 2024, lo cual ya se observa patrones de consumos normales. -->
-
-
 
 <!-- ### BC 205 - Villa Colombia -->
 
 <!-- ### BC 216 - Sabana de Torres -->
 
-<!--### BC 253 - Puerta del Norte
+### BC 253 - Puerta del Norte
 
-- La sede corrige la novedad de apagar el aire acondicionado a las 21 horas, cambiándolo a las 19 horas, lo cual resulta en una disminución del 8.3% en comparación con octubre. -->
+- Se debe validar los consumos nocturnos , debido a que se presenta un cambio en el patrón de consumo a partir del 19 abril 2024.
 
-### BC 291 - Las Palmas
+<!-- ### BC 291 - Las Palmas
 
-- A partir del 16 de febrero, la sede ha experimentado un cambio en el patrón de consumo debido a trabajos operativos. Se sugiere revisar la automatización, ya que se ha observado un aumento en el consumo de energía durante las horas nocturnas en la sede. 
+- A partir del 16 de febrero, la sede ha experimentado un cambio en el patrón de consumo debido a trabajos operativos. Se sugiere revisar la automatización, ya que se ha observado un aumento en el consumo de energía durante las horas nocturnas en la sede.  -->
+
 <!-- ### BC 302 - Quebrada Seca -->
 
-### BC 306 - Barrancabermeja
+<!--### BC 306 - Barrancabermeja
 
-- La sede presenta una novedad en el consumo de energía para los días festivos, se debe evaluar la automatización de la sede durante estos días para reducir el consumo de energía.
+- La sede presenta una novedad en el consumo de energía para los días festivos, se debe evaluar la automatización de la sede durante estos días para reducir el consumo de energía. -->
 
 <!--  Se ha identificado una novedad en el consumo de energía en la sede durante los días festivos. Se requiere validar y solucionar novedad de aire acondicionado para lograr una disminución en el consumo durante estos días especiales.
 
 - Cambio en el patrón de consumo de la carga AA, la sede se encuentra en gestión (SOPORTICA -CELSIA).-->
 
-### BC 311 - Bello
+<!--### BC 311 - Bello
 
-- La sede presenta una novedad en el consumo de energía para los días festivos, se debe evaluar la automatización de la sede durante estos días para reducir el consumo de energía.
+- La sede presenta una novedad en el consumo de energía para los días festivos, se debe evaluar la automatización de la sede durante estos días para reducir el consumo de energía. -->
 
 <!-- Se ha identificado una novedad en el consumo de energía en la sede durante los días festivos. -->
 
- ### BC 371 - Caucasia
+<!--### BC 371 - Caucasia
 
- - La sede experimenta un cambio en el patrón de consumo durante las horas 12 y 13 del mediodía, lo que resulta en un aumento del consumo de energía con respecto a la línea base para dichas horas.
+ - La sede experimenta un cambio en el patrón de consumo durante las horas 12 y 13 del mediodía, lo que resulta en un aumento del consumo de energía con respecto a la línea base para dichas horas. -->
+
 
 <!-- Se presenta novedad en medida AA a partir del 5 agosto, se presentaron trabajos en la sede por reposición de aire y planta electrica. Se presenta novedad en la medida de AA. -->
 
-### BC 398 - Mariquita
+<!--### BC 398 - Mariquita
 
-- Para el mes de Marzo se consumió 426 kWh más en comparación al mes anterior Febrero con 5074, lo que representa un 8.40% más de consumo. Se presento un cambio en el patrón de consumo del AA, a partir del 23 marzo.
+- Para el mes de Marzo se consumió 426 kWh más en comparación al mes anterior Febrero con 5074, lo que representa un 8.40% más de consumo. Se presento un cambio en el patrón de consumo del AA, a partir del 23 marzo.  -->
 
 <!--### BC 424 - Honda
 
@@ -131,9 +129,10 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!-- Pendiente de actualización de firmware. -->
 
-### BC 495 - El Bosque 
+<!--### BC 495 - El Bosque 
 
-- Se sugiere validar la automatización de los aires acondicionados debido a un aumento en el consumo de energía durante las horas nocturnas.
+- Se sugiere validar la automatización de los aires acondicionados debido a un aumento en el consumo de energía durante las horas nocturnas. -->
+
 
 <!-- Se presenta alerta por carga climitazación en horario nocturno para el sabado 22 agosto. Validar si se presentaron trabajos en la sede. -->
 
@@ -147,7 +146,9 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 - Se ha identificado un cambio en el patrón de consumo a partir del 24 de noviembre. Se sugiere realizar una validación en el sitio para descartar posibles fallas en el sistema de aire acondicionado.
 
-<!-- ### BC 534 - Buganviles -->
+### BC 534 - Buganviles
+
+- Para el mes de Abril se consumió 1454 kWh más en comparación al mes anterior Marzo con 5322, lo que representa un 27.32% más de consumo. Se presenta novedad para los fines de semana se registran consumos atipicos, se sugiere validar la automatización de los AA.
 
 <!-- ### BC 613 - La America -->
 
@@ -158,13 +159,13 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 <!-- ### BC 659 - Girardot -->
 
 
-### BC 678 - Paseo de la Castellana 
+<!--### BC 678 - Paseo de la Castellana 
 
-- El consumo de energía de Marzo fue 9672 kWh se consumió 3022 kWh más en comparación al mes anterior Febrero con 6650, lo que representa un 45.45% más de consumo. Se sugiere validar la automatización en las horas nocturnas.
+- El consumo de energía de Marzo fue 9672 kWh se consumió 3022 kWh más en comparación al mes anterior Febrero con 6650, lo que representa un 45.45% más de consumo. Se sugiere validar la automatización en las horas nocturnas. -->
 
-### BC 705 - El Bagre 
+<!--### BC 705 - El Bagre 
 
-- El sistema de aire acondicionado ahora comienza apagarse desde las 20:00 horas, en lugar de las 18:00 horas que es lo recomendable, se sugiere validar apagado del AA.
+- El sistema de aire acondicionado ahora comienza apagarse desde las 20:00 horas, en lugar de las 18:00 horas que es lo recomendable, se sugiere validar apagado del AA. -->
 
 <!-- ### BC 741 - Calima--> 
 
@@ -193,17 +194,17 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!-- Consumo irregular con respecto a la línea base (revsar tablero interactivo para junior información).  -->
 
-### BC 787 - Bocagrande Carrera Tercera
+<!--### BC 787 - Bocagrande Carrera Tercera
 
--El consumo de energía de Marzo fue 14957 kWh se consumió 1367 kWh más en comparación al mes anterior Febrero con 13591, lo que representa un 10.06% más de consumo. Se sugiere validar la automatización en las horas nocturnas.
+-El consumo de energía de Marzo fue 14957 kWh se consumió 1367 kWh más en comparación al mes anterior Febrero con 13591, lo que representa un 10.06% más de consumo. Se sugiere validar la automatización en las horas nocturnas. -->
 
 <!-- ### BC 789 - Manga -->
 
 <!-- ### BC 792 - Paseo del comercio -->
 
-### BC 793 - Profesionales
+<!--### BC 793 - Profesionales
 
-- La sede presentó cambios en el patrón de consumo referente a su linea base, se suguiere validar el sistema de AA.
+- La sede presentó cambios en el patrón de consumo referente a su linea base, se suguiere validar el sistema de AA. -->
 
 <!-- ### BC 796 - Girón -->
 
@@ -211,8 +212,7 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 ### BC 816 - Calle 10 
 
-- El consumo de energía de Marzo fue 8419 kWh se consumió 2194 kWh más en comparación al mes anterior Febrero con 6225, lo que representa un 35.25% más de consumo.Se sugiere validar la automatización en las horas nocturnas.
-
+- Para el mes de Abril se consumió 752 kWh más en comparación al mes anterior Marzo, lo que representa un 8.93% más de consumo. Se sugiere validar el consumo en el horario no laboral.
 
 <!-- ### BC 824 - Ventura Plaza -->
 
@@ -229,4 +229,8 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!-- ### - Valledupar -->
 
-<!-- ### BC 863 - Granada -->
+<!-- ### BC 863 - Granada 
+
+Sin datos para abril, no entraria en facturación
+-->
+
