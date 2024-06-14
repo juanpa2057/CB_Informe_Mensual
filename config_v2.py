@@ -4,11 +4,11 @@ NIGHT_HOURS = [0, 1, 2, 3, 4, 5, 19, 20, 21, 22, 23]
 # last baseline date must be the same
 # date as start of study. Basically all
 # dates must be mondays.
-BASELINE = ['2024-01-01', '2024-04-01']
-STUDY = ['2024-04-01', '2024-05-01']
-PAST_MONTH= ['2024-03-01', '2024-04-01']
+BASELINE = ['2024-02-01', '2024-05-01']
+STUDY = ['2024-05-01', '2024-06-01']
+PAST_MONTH= ['2024-04-01', '2024-05-01']
 
-MONTH_NAME = 'Abril'
+MONTH_NAME = 'Mayo'
 
 DATE_INTERVALS_TO_DISCARD = {
 }
