@@ -4,7 +4,7 @@
 
 </div>
 
-Abril 2024
+Mayo 2024
 ## Tener presente:
 
 1. Las pérdidas de datos en el totalizador pueden hacer parecer como que los consumos de AA o Iluminación superan al totalizador.
@@ -26,9 +26,9 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 ## Observaciones específicas:
 
-### BC 044 - Piedecuesta
+<!-- ### BC 044 - Piedecuesta
 
-- Durante el mes de abril, el consumo de energía aumentó en 1521 kWh con respecto al mes anterior lo que representa un aumento del 20.59%. Este incremento en el consumo de energía está asociado al aumento de la temperatura durante las horas laborales hábiles.
+- Durante el mes de abril, el consumo de energía aumentó en 1521 kWh con respecto al mes anterior lo que representa un aumento del 20.59%. Este incremento en el consumo de energía está asociado al aumento de la temperatura durante las horas laborales hábiles.  -->
 
 <!--### BC 061 - Carrera Primera
 
@@ -45,7 +45,9 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 ### BC 88 - Cúcuta 
 
-- Se debe revisar la carga del sistema de AA, la cual representa el 93.9% del consumo total.
+- La sede presentó una reducción en el consumo de energía, comparado con el mes anterior, equivalente al 7%, debido a un cambio en el patrón de consumo a partir del 19 de mayo.
+
+- Se debe revisar la carga del sistema de AA, la cual representa el 93 % del consumo total.
 
 <!-- ### BC 90 - Megamall
 
@@ -60,13 +62,14 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 ### BC 197 - Guatapuri
 
-- El consumo de energía de Abril fue 9290 kWh, se consumió 1348 kWh más en comparación al mes anterior Marzo, lo que representa un 16.97% más de consumo.
+- El consumo de energía en mayo fue de 9698 kWh. Esto representa un aumento de 408 kWh en comparación con abril, cuyo consumo fue de 9290 kWh, lo que equivale a un incremento del 4.39%
 
 <!-- ### BC 205 - Villa Colombia -->
 
-### BC 210 - Banca Colombia Cartagena
+<!-- ### BC 210 - Banca Colombia Cartagena
 
-- La sede estaba en mantenimientos operativos lo cual se ve un aunmento respecto a la linea base.
+- La sede estaba en mantenimientos operativos lo cual se ve un aunmento respecto a la linea base.  -->
+
 
 <!-- La sede estuvo en mantenimiento operativo del 29 noviembre del 2023  hasta el 12 de febrero 2024, lo cual ya se observa patrones de consumos normales. -->
 
@@ -76,7 +79,7 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 ### BC 253 - Puerta del Norte
 
-- Se debe validar los consumos nocturnos , debido a que se presenta un cambio en el patrón de consumo a partir del 19 abril 2024.
+- Se normaliza los consumos nocturnos a partir del 19 de mayo, los cuales se presentaban novedad cambio en el patrón de consumo.
 
 <!-- ### BC 291 - Las Palmas
 
@@ -116,9 +119,9 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 - La sede presentó un cambio en el patrón de consumo a partir 25 de Octubre por trabajos en la sede --> 
  
-<!--### BC 454 - Quinta Avenida  
+### BC 454 - Quinta Avenida  
 
-- La sede experimentó un cambio en el patrón de consumo a partir del 17 de Diciembre, validar si se presentaron trabajos en la sede. --> 
+- La sede experimentó un cambio en el patrón de consumo a partir del 21 de mayo, validar si se presentaron trabajos en la sede.
 
 <!-- Se ha normalizado la medida a partir del 10 agosto, se incluye en el dashboard e informe de control. Es
 importante tener en cuenta que se está construyendo la línea base para futuras referencias. -->
@@ -148,7 +151,7 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 ### BC 534 - Buganviles
 
-- Para el mes de Abril se consumió 1454 kWh más en comparación al mes anterior Marzo con 5322, lo que representa un 27.32% más de consumo. Se presenta novedad para los fines de semana se registran consumos atipicos, se sugiere validar la automatización de los AA.
+- Para el mes de Mayo se consumió 430 kWh más en comparación al mes anterior Abril con 6775, lo que representa un 6.34% más de consumo. Se presenta novedad para los fines de semana se registran consumos atipicos, se sugiere validar la automatización de los AA.
 
 <!-- ### BC 613 - La America -->
 
@@ -163,9 +166,9 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 - El consumo de energía de Marzo fue 9672 kWh se consumió 3022 kWh más en comparación al mes anterior Febrero con 6650, lo que representa un 45.45% más de consumo. Se sugiere validar la automatización en las horas nocturnas. -->
 
-<!--### BC 705 - El Bagre 
+### BC 705 - El Bagre 
 
-- El sistema de aire acondicionado ahora comienza apagarse desde las 20:00 horas, en lugar de las 18:00 horas que es lo recomendable, se sugiere validar apagado del AA. -->
+- Se presenta un cambio en el patrón de consumo en el sistema de AA, a partir del 6 de mayo, lo cual se ve una disminución en el consumo de energía.
 
 <!-- ### BC 741 - Calima--> 
 
@@ -182,9 +185,10 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 - La sede presentó una novedad en el consumo durante los fines de semana durante el mes de Noviembre. Esta novedad ya ha sido resuelta.-->
 
 
-<!-- ### BC 776 - Lebrija
+### BC 776 - Lebrija
 
-- Se debe validar la carga totalizadora, ya que presenta un cambio en el patrón de consumo a partir del 11 de Octubre. -->
+
+- Para el mes de Mayo se consumió 532 kWh menos en comparación al mes anterior Abril con 3252, lo que representa un 16.36% menos de consumo, debido a que se presentoun cambio en el patrón de consumo desde el 16 de may
 
 <!--### BC 784 - Centro Colon
 
@@ -210,9 +214,9 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!-- ### BC 799 - Floridablanca -->
 
-### BC 816 - Calle 10 
+<!-- ### BC 816 - Calle 10 
 
-- Para el mes de Abril se consumió 752 kWh más en comparación al mes anterior Marzo, lo que representa un 8.93% más de consumo. Se sugiere validar el consumo en el horario no laboral.
+- Para el mes de Abril se consumió 752 kWh más en comparación al mes anterior Marzo, lo que representa un 8.93% más de consumo. Se sugiere validar el consumo en el horario no laboral. -->
 
 <!-- ### BC 824 - Ventura Plaza -->
 
