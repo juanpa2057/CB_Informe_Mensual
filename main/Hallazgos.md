@@ -4,7 +4,7 @@
 
 </div>
 
-Mayo 2024
+Junio 2024
 ## Tener presente:
 
 1. Las pérdidas de datos en el totalizador pueden hacer parecer como que los consumos de AA o Iluminación superan al totalizador.
@@ -45,7 +45,7 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 ### BC 88 - Cúcuta 
 
-- La sede presentó una reducción en el consumo de energía, comparado con el mes anterior, equivalente al 7%, debido a un cambio en el patrón de consumo a partir del 19 de mayo.
+- La sede presentó una reducción en el consumo de energía, comparado con el mes anterior equivalente al 23.6%, debido a un cambio en el patrón de consumo a partir del 19 de mayo. 
 
 - Se debe revisar la carga del sistema de AA, la cual representa el 93 % del consumo total.
 
@@ -62,7 +62,7 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 ### BC 197 - Guatapuri
 
-- El consumo de energía en mayo fue de 9698 kWh. Esto representa un aumento de 408 kWh en comparación con abril, cuyo consumo fue de 9290 kWh, lo que equivale a un incremento del 4.39%
+- Se sugiere validar el funcionamiento del sistema de aire acondicionado, ya que presenta patrones de consumo atípicos. Además, la hora de apagado del sistema está para las 21:00 horas, cuando generalmente debería ser a las 18:00 horas.
 
 <!-- ### BC 205 - Villa Colombia -->
 
@@ -77,9 +77,9 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 <!-- ### BC 216 - Sabana de Torres -->
 
-### BC 253 - Puerta del Norte
+<!--### BC 253 - Puerta del Norte
 
-- Se normaliza los consumos nocturnos a partir del 19 de mayo, los cuales se presentaban novedad cambio en el patrón de consumo.
+- Se normaliza los consumos nocturnos a partir del 19 de mayo, los cuales se presentaban novedad cambio en el patrón de consumo. -->
 
 <!-- ### BC 291 - Las Palmas
 
@@ -121,7 +121,7 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
  
 ### BC 454 - Quinta Avenida  
 
-- La sede experimentó un cambio en el patrón de consumo a partir del 21 de mayo, validar si se presentaron trabajos en la sede.
+- La sede experimentó un cambio en el patrón de consumo a partir del 21 de mayo lo que representa un 10.73% menos de consumo para el mes de junio.
 
 <!-- Se ha normalizado la medida a partir del 10 agosto, se incluye en el dashboard e informe de control. Es
 importante tener en cuenta que se está construyendo la línea base para futuras referencias. -->
@@ -151,7 +151,7 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 ### BC 534 - Buganviles
 
-- Para el mes de Mayo se consumió 430 kWh más en comparación al mes anterior Abril con 6775, lo que representa un 6.34% más de consumo. Se presenta novedad para los fines de semana se registran consumos atipicos, se sugiere validar la automatización de los AA.
+- Se presenta novedad para los fines de semana se registran consumos atipicos, se sugiere validar la automatización de los AA.
 
 <!-- ### BC 613 - La America -->
 
@@ -170,6 +170,8 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 - Se presenta un cambio en el patrón de consumo en el sistema de AA, a partir del 6 de mayo, lo cual se ve una disminución en el consumo de energía.
 
+- Se presento para junio una disminucion del 9.62% en comparación con mayo equivalente a kWh.
+
 <!-- ### BC 741 - Calima--> 
 
 <!-- Se desmonto monitoreo por adecuación en la sede entra fase 2.-->
@@ -178,17 +180,19 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 ### BC 750 - Roosevelt
 
-- Se presenta una novedad en la sede a partir del 28 de septiembre, donde la carga de aire acondicionado es mayor que la del totalizador. Se debe validar la corriente L2 de la medida totalizadora.
+- Se presenta una novedad en la sede , donde la carga de aire acondicionado es mayor que la del totalizador. Se debe validar la corriente L2 de la medida totalizadora.
+
+<!--Se presenta una novedad en la sede a partir del 28 de septiembre, donde la carga de aire acondicionado es mayor que la del totalizador. Se debe validar la corriente L2 de la medida totalizadora. -->
 
 <!-- ### BC 764 - Jamundí
 
 - La sede presentó una novedad en el consumo durante los fines de semana durante el mes de Noviembre. Esta novedad ya ha sido resuelta.-->
 
 
-### BC 776 - Lebrija
+<!--### BC 776 - Lebrija
 
 
-- Para el mes de Mayo se consumió 532 kWh menos en comparación al mes anterior Abril con 3252, lo que representa un 16.36% menos de consumo, debido a que se presentoun cambio en el patrón de consumo desde el 16 de may
+- Para el mes de Mayo se consumió 532 kWh menos en comparación al mes anterior Abril con 3252, lo que representa un 16.36% menos de consumo, debido a que se presentoun cambio en el patrón de consumo desde el 16 de may. -->
 
 <!--### BC 784 - Centro Colon
 
