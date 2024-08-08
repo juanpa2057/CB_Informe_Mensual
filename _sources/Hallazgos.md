@@ -4,7 +4,7 @@
 
 </div>
 
-Junio 2024
+Julio 2024
 ## Tener presente:
 
 1. Las pérdidas de datos en el totalizador pueden hacer parecer como que los consumos de AA o Iluminación superan al totalizador.
@@ -42,21 +42,20 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 <!-- La sede ha logrado reducir su consumo en un 7% con respecto al mes anterior, lo que indica que se ha tenido en cuenta la recomendación de encender el aire acondicionado a partir de las 7:00 am. Esta medida ha generado ahorros de 649 kWh en el mes de Octubre. -->
 
 <!-- ### BC 78 - El Cacique  -->
-
+<!--
 ### BC 88 - Cúcuta 
 
 - La sede presentó una reducción en el consumo de energía, comparado con el mes anterior equivalente al 23.6%, debido a un cambio en el patrón de consumo a partir del 19 de mayo. 
 
-- Se debe revisar la carga del sistema de AA, la cual representa el 93 % del consumo total.
+- Se debe revisar la carga del sistema de AA, la cual representa el 93 % del consumo total.-->
 
 <!-- ### BC 90 - Megamall
 
 - Durante el mes de febrero, el consumo de energía eléctrica fue de 298 kWh menos en comparación con el mes anterior, en enero, que fue de 4786 kWh. Esto representa una reducción del 6.23% en el consumo. El sistema de aire acondicionado ahora comienza apagarse desde las 18:00 horas, en lugar de las 19:00 horas como se hacía anteriormente. -->
 
-<!-- ### BC 185 - Llano Grande Palmira
+### BC 185 - Llano Grande Palmira
 
-- El consumo de energía de Enero fue 5656 kWh. Para el mes de Enero se consumió 782 kWh más en comparación al mes anterior Diciembre con 4874, lo que representa un 16.05% más de consumo, debido a que se presentaron consumos nocturnos a partir del 23 de enero por cambio en el patrón de consumo.
-
+- La sede presentó un cambio en el patrón de consumo del 19 al 28 de julio, el cual fue normalizado.
 
 <!-- Se han logrado ahorros de 399 kWh para el mes de Octubre gracias a la corrección de los consumos atípicos durante los fines de semana mediante ajustes en la automatización. -->
 
@@ -64,7 +63,9 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 - Se sugiere validar el funcionamiento del sistema de aire acondicionado, ya que presenta patrones de consumo atípicos. Además, la hora de apagado del sistema está para las 21:00 horas, cuando generalmente debería ser a las 18:00 horas.
 
-<!-- ### BC 205 - Villa Colombia -->
+### BC 205 - Villa Colombia
+
+- Se evidencia un aumento en el consumo de energía entre las 13:00 y las 17:00 horas, correspondiente al funcionamiento del sistema de aire acondicionado. Se sugiere validar dicho aumento.
 
 <!-- ### BC 210 - Banca Colombia Cartagena
 
@@ -118,10 +119,10 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 <!--### BC 453 - Pitalito
 
 - La sede presentó un cambio en el patrón de consumo a partir 25 de Octubre por trabajos en la sede --> 
- 
+ <!--###
 ### BC 454 - Quinta Avenida  
 
-- La sede experimentó un cambio en el patrón de consumo a partir del 21 de mayo lo que representa un 10.73% menos de consumo para el mes de junio.
+- La sede experimentó un cambio en el patrón de consumo a partir del 21 de mayo lo que representa un 10.73% menos de consumo para el mes de junio.--> 
 
 <!-- Se ha normalizado la medida a partir del 10 agosto, se incluye en el dashboard e informe de control. Es
 importante tener en cuenta que se está construyendo la línea base para futuras referencias. -->
@@ -139,9 +140,9 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!-- Se presenta alerta por carga climitazación en horario nocturno para el sabado 22 agosto. Validar si se presentaron trabajos en la sede. -->
 
-<!-- ### BC 496 - Iwanna
+### BC 496 - Iwanna
 
-- Los trabajos en la sede finalizaron el 4 de Octubre y se observó una disminución de 1,711 kWh en el consumo en Octubre en comparación con el mes de agosto. esta sede es un ejemplo de los ahorros -->
+- La sede presentó un cambio en el patrón de consumo del 26 junio al 23 de julio, el cual fue normalizado.
 
 <!-- ### BC 514 - Centro Comercial Único -->
 
@@ -157,7 +158,9 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!-- Se presentó un cambio en el consumo nocturno para el 12 de agosto. Se deben validar temas de automatización en la sede. -->
 
-<!-- ### BC 656 - Mayales -->
+### BC 656 - Mayales
+
+- En la línea base, la sede mostraba una disminución en el consumo de aire acondicionado al mediodía. En julio, este patrón cambió, resultando en un aumento del 14.81% en el consumo.
 
 <!-- ### BC 659 - Girardot -->
 
@@ -165,12 +168,12 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 <!--### BC 678 - Paseo de la Castellana 
 
 - El consumo de energía de Marzo fue 9672 kWh se consumió 3022 kWh más en comparación al mes anterior Febrero con 6650, lo que representa un 45.45% más de consumo. Se sugiere validar la automatización en las horas nocturnas. -->
-
+<!--
 ### BC 705 - El Bagre 
 
 - Se presenta un cambio en el patrón de consumo en el sistema de AA, a partir del 6 de mayo, lo cual se ve una disminución en el consumo de energía.
 
-- Se presento para junio una disminucion del 9.62% en comparación con mayo equivalente a kWh.
+- Se presento para junio una disminucion del 9.62% en comparación con mayo equivalente a kWh.-->
 
 <!-- ### BC 741 - Calima--> 
 
