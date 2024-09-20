@@ -4,7 +4,7 @@
 
 </div>
 
-Julio 2024
+Agosto 2024
 ## Tener presente:
 
 1. Las pérdidas de datos en el totalizador pueden hacer parecer como que los consumos de AA o Iluminación superan al totalizador.
@@ -52,20 +52,20 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 <!-- ### BC 90 - Megamall
 
 - Durante el mes de febrero, el consumo de energía eléctrica fue de 298 kWh menos en comparación con el mes anterior, en enero, que fue de 4786 kWh. Esto representa una reducción del 6.23% en el consumo. El sistema de aire acondicionado ahora comienza apagarse desde las 18:00 horas, en lugar de las 19:00 horas como se hacía anteriormente. -->
-
+<!--
 ### BC 185 - Llano Grande Palmira
 
-- La sede presentó un cambio en el patrón de consumo del 19 al 28 de julio, el cual fue normalizado.
+- La sede presentó un cambio en el patrón de consumo del 19 al 28 de julio, el cual fue normalizado.-->
 
 <!-- Se han logrado ahorros de 399 kWh para el mes de Octubre gracias a la corrección de los consumos atípicos durante los fines de semana mediante ajustes en la automatización. -->
 
 ### BC 197 - Guatapuri
 
 - Se sugiere validar el funcionamiento del sistema de aire acondicionado, ya que presenta patrones de consumo atípicos. Además, la hora de apagado del sistema está para las 21:00 horas, cuando generalmente debería ser a las 18:00 horas.
-
+<!--
 ### BC 205 - Villa Colombia
 
-- Se evidencia un aumento en el consumo de energía entre las 13:00 y las 17:00 horas, correspondiente al funcionamiento del sistema de aire acondicionado. Se sugiere validar dicho aumento.
+- Se evidencia un aumento en el consumo de energía entre las 13:00 y las 17:00 horas, correspondiente al funcionamiento del sistema de aire acondicionado. Se sugiere validar dicho aumento.-->
 
 <!-- ### BC 210 - Banca Colombia Cartagena
 
@@ -142,7 +142,7 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 ### BC 496 - Iwanna
 
-- La sede presentó un cambio en el patrón de consumo del 26 junio al 23 de julio, el cual fue normalizado.
+- A partir del 9 de agosto, la sede experimentó un cambio en el patrón de consumo durante las horas nocturnas. Se recomienda verificar la automatización.
 
 <!-- ### BC 514 - Centro Comercial Único -->
 
@@ -157,10 +157,10 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 <!-- ### BC 613 - La America -->
 
 <!-- Se presentó un cambio en el consumo nocturno para el 12 de agosto. Se deben validar temas de automatización en la sede. -->
-
+<!--
 ### BC 656 - Mayales
 
-- En la línea base, la sede mostraba una disminución en el consumo de aire acondicionado al mediodía. En julio, este patrón cambió, resultando en un aumento del 14.81% en el consumo.
+- En la línea base, la sede mostraba una disminución en el consumo de aire acondicionado al mediodía. En julio, este patrón cambió, resultando en un aumento del 14.81% en el consumo.-->
 
 <!-- ### BC 659 - Girardot -->
 
@@ -197,11 +197,9 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 - Para el mes de Mayo se consumió 532 kWh menos en comparación al mes anterior Abril con 3252, lo que representa un 16.36% menos de consumo, debido a que se presentoun cambio en el patrón de consumo desde el 16 de may. -->
 
-<!--### BC 784 - Centro Colon
+### BC 784 - Centro Colon
 
-- Se evidencia que los consumos de la sede se normalizan a partir del 10 de noviembre. A partir de noviembre se ha presentados ahorros.
-
-- Para el mes de Febrero se consumió 355 kWh menos en comparación al mes anterior Enero con 5854, lo que representa un 6.07% menos de consumo.-->
+- La sede presentó un cambio en el patrón de consumo del 7 al 17 de agosto. Se recomienda verificar si se realizaron trabajos operativos durante ese período.
 
 <!-- Consumo irregular con respecto a la línea base (revsar tablero interactivo para junior información).  -->
 
