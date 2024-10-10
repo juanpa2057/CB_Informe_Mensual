@@ -4,7 +4,7 @@
 
 </div>
 
-Agosto 2024
+Septiembre 2024
 ## Tener presente:
 
 1. Las pérdidas de datos en el totalizador pueden hacer parecer como que los consumos de AA o Iluminación superan al totalizador.
@@ -30,9 +30,9 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 - Durante el mes de abril, el consumo de energía aumentó en 1521 kWh con respecto al mes anterior lo que representa un aumento del 20.59%. Este incremento en el consumo de energía está asociado al aumento de la temperatura durante las horas laborales hábiles.  -->
 
-<!--### BC 061 - Carrera Primera
+### BC 061 - Carrera Primera
 
-- Se recomienda verificar el funcionamiento del AA durante los días festivos, ya que no se observa una reducción en el consumo de energía durante esos días. -->
+- La sede será desinstalada y será reemplazada por la sucursal de Tuluá.
 
 <!-- En diciembre, el consumo de energía fue 2,296 kWh menor en comparación con el mes anterior noviembre que registró un consumo de 10,291 kWh. Esto representa una disminución del 22.31% en el consumo. Este cambio se debe a un ajuste en el patrón de consumo de la sede a partir del 30 de noviembre.
 -->
@@ -58,10 +58,10 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 - La sede presentó un cambio en el patrón de consumo del 19 al 28 de julio, el cual fue normalizado.-->
 
 <!-- Se han logrado ahorros de 399 kWh para el mes de Octubre gracias a la corrección de los consumos atípicos durante los fines de semana mediante ajustes en la automatización. -->
-
+<!--
 ### BC 197 - Guatapuri
 
-- Se sugiere validar el funcionamiento del sistema de aire acondicionado, ya que presenta patrones de consumo atípicos. Además, la hora de apagado del sistema está para las 21:00 horas, cuando generalmente debería ser a las 18:00 horas.
+- Se sugiere validar el funcionamiento del sistema de aire acondicionado, ya que presenta patrones de consumo atípicos. Además, la hora de apagado del sistema está para las 21:00 horas, cuando generalmente debería ser a las 18:00 horas.-->
 <!--
 ### BC 205 - Villa Colombia
 
@@ -109,9 +109,9 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 <!-- Se presenta novedad en medida AA a partir del 5 agosto, se presentaron trabajos en la sede por reposición de aire y planta electrica. Se presenta novedad en la medida de AA. -->
 
-<!--### BC 398 - Mariquita
+### BC 398 - Mariquita
 
-- Para el mes de Marzo se consumió 426 kWh más en comparación al mes anterior Febrero con 5074, lo que representa un 8.40% más de consumo. Se presento un cambio en el patrón de consumo del AA, a partir del 23 marzo.  -->
+- La sede cambia su patrón de consumo a partir del 25 de septiembre. Se sugiere validar que no se estén presentando trabajos operativos en la sede.
 
 <!--### BC 424 - Honda
 
@@ -139,16 +139,16 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 
 <!-- Se presenta alerta por carga climitazación en horario nocturno para el sabado 22 agosto. Validar si se presentaron trabajos en la sede. -->
-
+<!-- 
 ### BC 496 - Iwanna
 
-- A partir del 9 de agosto, la sede experimentó un cambio en el patrón de consumo durante las horas nocturnas. Se recomienda verificar la automatización.
+- A partir del 9 de agosto, la sede experimentó un cambio en el patrón de consumo durante las horas nocturnas. Se recomienda verificar la automatización. -->
 
 <!-- ### BC 514 - Centro Comercial Único -->
-
+<!--
 ### BC 523 - Olímpica
 
-- Se ha identificado un cambio en el patrón de consumo a partir del 24 de noviembre. Se sugiere realizar una validación en el sitio para descartar posibles fallas en el sistema de aire acondicionado.
+- Se ha identificado un cambio en el patrón de consumo a partir del 24 de noviembre. Se sugiere realizar una validación en el sitio para descartar posibles fallas en el sistema de aire acondicionado.-->
 
 ### BC 534 - Buganviles
 
@@ -168,12 +168,10 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 <!--### BC 678 - Paseo de la Castellana 
 
 - El consumo de energía de Marzo fue 9672 kWh se consumió 3022 kWh más en comparación al mes anterior Febrero con 6650, lo que representa un 45.45% más de consumo. Se sugiere validar la automatización en las horas nocturnas. -->
-<!--
+
 ### BC 705 - El Bagre 
 
-- Se presenta un cambio en el patrón de consumo en el sistema de AA, a partir del 6 de mayo, lo cual se ve una disminución en el consumo de energía.
-
-- Se presento para junio una disminucion del 9.62% en comparación con mayo equivalente a kWh.-->
+- El consumo de energía en Septiembre fue de 5435 kWh. Esto representa un aumento de 521 kWh más en comparación al mes anterior Agosto cuyo consumo fue de 4914, lo que representa un 10.60% más de consumo.
 
 <!-- ### BC 741 - Calima--> 
 
@@ -186,8 +184,8 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 - Se presenta una novedad en la sede , donde la carga de aire acondicionado es mayor que la del totalizador. Se debe validar la corriente L2 de la medida totalizadora.
 
 <!--Se presenta una novedad en la sede a partir del 28 de septiembre, donde la carga de aire acondicionado es mayor que la del totalizador. Se debe validar la corriente L2 de la medida totalizadora. -->
-
-<!-- ### BC 764 - Jamundí
+<!--
+ ### BC 764 - Jamundí
 
 - La sede presentó una novedad en el consumo durante los fines de semana durante el mes de Noviembre. Esta novedad ya ha sido resuelta.-->
 
@@ -196,11 +194,11 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 
 - Para el mes de Mayo se consumió 532 kWh menos en comparación al mes anterior Abril con 3252, lo que representa un 16.36% menos de consumo, debido a que se presentoun cambio en el patrón de consumo desde el 16 de may. -->
-
+<!--
 ### BC 784 - Centro Colon
 
 - La sede presentó un cambio en el patrón de consumo del 7 al 17 de agosto. Se recomienda verificar si se realizaron trabajos operativos durante ese período.
-
+-->
 <!-- Consumo irregular con respecto a la línea base (revsar tablero interactivo para junior información).  -->
 
 <!--### BC 787 - Bocagrande Carrera Tercera

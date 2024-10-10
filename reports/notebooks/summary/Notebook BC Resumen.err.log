@@ -17,11 +17,8 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-df_info = pd.read_excel(project_path / 'tools' / "AMH Sedes BC.xlsx")
-
 #df = pd.read_pickle(project_path / 'data' / _PICKLED_DATA_FILENAME)
 df = pd.read_pickle(r"C:\Proyectos Digitalización\Bancolombia\CB_informes_Ubi\Informe_semanal_v2\data\data_weekly_report.pkl")
-df = df.query("device_name == @DEVICE_NAME")
 
 # Legacy code (including the library) expects these column names
 # but the new Ubidots library returns more specific column names
@@ -29,20 +26,28 @@ df = df.query("device_name == @DEVICE_NAME")
 # so that it uses these more descriptive column names.
 df = df.rename(columns={'variable_label':'variable','device_label':'device',})
 
-show_response_contents(df)
+df = df.sort_values(by=['variable','datetime'])
+df = pro.datetime_attributes(df)
+
+# Agrego esta linea codigo para quitar estas dos sedes que generar ruido por datos altos
+df = df[~df["device_name"].isin(["BC 829 - Unicentro Cali", "BC 454 - Quinta Avenida 2"])]
+
+df_bl, df_st = pro.split_into_baseline_and_study(df, baseline=cfg.BASELINE, study=cfg.STUDY, inclusive='left')
+
+study_daterange = pd.Series(pd.date_range(start=cfg.STUDY[0], end=cfg.STUDY[1], freq='D'))
+
 ------------------
 
 [1;31m---------------------------------------------------------------------------[0m
 [1;31mUnpicklingError[0m                           Traceback (most recent call last)
-Cell [1;32mIn[4], line 4[0m
-[0;32m      1[0m df_info [38;5;241m=[39m pd[38;5;241m.[39mread_excel(project_path [38;5;241m/[39m [38;5;124m'[39m[38;5;124mtools[39m[38;5;124m'[39m [38;5;241m/[39m [38;5;124m"[39m[38;5;124mAMH Sedes BC.xlsx[39m[38;5;124m"[39m)
-[0;32m      3[0m [38;5;66;03m#df = pd.read_pickle(project_path / 'data' / _PICKLED_DATA_FILENAME)[39;00m
-[1;32m----> 4[0m df [38;5;241m=[39m [43mpd[49m[38;5;241;43m.[39;49m[43mread_pickle[49m[43m([49m[38;5;124;43mr[39;49m[38;5;124;43m"[39;49m[38;5;124;43mC:[39;49m[38;5;124;43m\[39;49m[38;5;124;43mProyectos Digitalización[39;49m[38;5;124;43m\[39;49m[38;5;124;43mBancolombia[39;49m[38;5;124;43m\[39;49m[38;5;124;43mCB_informes_Ubi[39;49m[38;5;124;43m\[39;49m[38;5;124;43mInforme_semanal_v2[39;49m[38;5;124;43m\[39;49m[38;5;124;43mdata[39;49m[38;5;124;43m\[39;49m[38;5;124;43mdata_weekly_report.pkl[39;49m[38;5;124;43m"[39;49m[43m)[49m
-[0;32m      5[0m df [38;5;241m=[39m df[38;5;241m.[39mquery([38;5;124m"[39m[38;5;124mdevice_name == @DEVICE_NAME[39m[38;5;124m"[39m)
-[0;32m      7[0m [38;5;66;03m# Legacy code (including the library) expects these column names[39;00m
-[0;32m      8[0m [38;5;66;03m# but the new Ubidots library returns more specific column names[39;00m
-[0;32m      9[0m [38;5;66;03m# so renaming is necessary. TODO: rework the Report library[39;00m
-[0;32m     10[0m [38;5;66;03m# so that it uses these more descriptive column names.[39;00m
+Cell [1;32mIn[4], line 2[0m
+[0;32m      1[0m [38;5;66;03m#df = pd.read_pickle(project_path / 'data' / _PICKLED_DATA_FILENAME)[39;00m
+[1;32m----> 2[0m df [38;5;241m=[39m [43mpd[49m[38;5;241;43m.[39;49m[43mread_pickle[49m[43m([49m[38;5;124;43mr[39;49m[38;5;124;43m"[39;49m[38;5;124;43mC:[39;49m[38;5;124;43m\[39;49m[38;5;124;43mProyectos Digitalización[39;49m[38;5;124;43m\[39;49m[38;5;124;43mBancolombia[39;49m[38;5;124;43m\[39;49m[38;5;124;43mCB_informes_Ubi[39;49m[38;5;124;43m\[39;49m[38;5;124;43mInforme_semanal_v2[39;49m[38;5;124;43m\[39;49m[38;5;124;43mdata[39;49m[38;5;124;43m\[39;49m[38;5;124;43mdata_weekly_report.pkl[39;49m[38;5;124;43m"[39;49m[43m)[49m
+[0;32m      4[0m [38;5;66;03m# Legacy code (including the library) expects these column names[39;00m
+[0;32m      5[0m [38;5;66;03m# but the new Ubidots library returns more specific column names[39;00m
+[0;32m      6[0m [38;5;66;03m# so renaming is necessary. TODO: rework the Report library[39;00m
+[0;32m      7[0m [38;5;66;03m# so that it uses these more descriptive column names.[39;00m
+[0;32m      8[0m df [38;5;241m=[39m df[38;5;241m.[39mrename(columns[38;5;241m=[39m{[38;5;124m'[39m[38;5;124mvariable_label[39m[38;5;124m'[39m:[38;5;124m'[39m[38;5;124mvariable[39m[38;5;124m'[39m,[38;5;124m'[39m[38;5;124mdevice_label[39m[38;5;124m'[39m:[38;5;124m'[39m[38;5;124mdevice[39m[38;5;124m'[39m,})
 
 File [1;32m~\.conda\envs\nuevo2-env\lib\site-packages\pandas\io\pickle.py:208[0m, in [0;36mread_pickle[1;34m(filepath_or_buffer, compression, storage_options)[0m
 [0;32m    205[0m     [38;5;28;01mwith[39;00m warnings[38;5;241m.[39mcatch_warnings(record[38;5;241m=[39m[38;5;28;01mTrue[39;00m):
