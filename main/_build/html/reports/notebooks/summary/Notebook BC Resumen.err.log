@@ -39,7 +39,7 @@ study_daterange = pd.Series(pd.date_range(start=cfg.STUDY[0], end=cfg.STUDY[1], 
 ------------------
 
 [1;31m---------------------------------------------------------------------------[0m
-[1;31mUnpicklingError[0m                           Traceback (most recent call last)
+[1;31mMemoryError[0m                               Traceback (most recent call last)
 Cell [1;32mIn[4], line 2[0m
 [0;32m      1[0m [38;5;66;03m#df = pd.read_pickle(project_path / 'data' / _PICKLED_DATA_FILENAME)[39;00m
 [1;32m----> 2[0m df [38;5;241m=[39m [43mpd[49m[38;5;241;43m.[39;49m[43mread_pickle[49m[43m([49m[38;5;124;43mr[39;49m[38;5;124;43m"[39;49m[38;5;124;43mC:[39;49m[38;5;124;43m\[39;49m[38;5;124;43mProyectos Digitalización[39;49m[38;5;124;43m\[39;49m[38;5;124;43mBancolombia[39;49m[38;5;124;43m\[39;49m[38;5;124;43mCB_informes_Ubi[39;49m[38;5;124;43m\[39;49m[38;5;124;43mInforme_semanal_v2[39;49m[38;5;124;43m\[39;49m[38;5;124;43mdata[39;49m[38;5;124;43m\[39;49m[38;5;124;43mdata_weekly_report.pkl[39;49m[38;5;124;43m"[39;49m[43m)[49m
@@ -60,6 +60,6 @@ File [1;32m~\.conda\envs\nuevo2-env\lib\site-packages\pandas\io\pickle.py:208[
 [0;32m    212[0m     [38;5;66;03m#  "Can't get attribute '__nat_unpickle' on <module 'pandas._libs.tslib"[39;00m
 [0;32m    213[0m     [38;5;28;01mreturn[39;00m pc[38;5;241m.[39mload(handles[38;5;241m.[39mhandle, encoding[38;5;241m=[39m[38;5;28;01mNone[39;00m)
 
-[1;31mUnpicklingError[0m: pickle data was truncated
-UnpicklingError: pickle data was truncated
+[1;31mMemoryError[0m: 
+MemoryError: 
 
