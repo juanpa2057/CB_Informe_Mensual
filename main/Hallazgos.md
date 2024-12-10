@@ -4,7 +4,7 @@
 
 </div>
 
-Octubre 2024
+Noviembre 2024
 ## Tener presente:
 
 1. Las pérdidas de datos en el totalizador pueden hacer parecer como que los consumos de AA o Iluminación superan al totalizador.
@@ -37,9 +37,9 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 <!-- En diciembre, el consumo de energía fue 2,296 kWh menor en comparación con el mes anterior noviembre que registró un consumo de 10,291 kWh. Esto representa una disminución del 22.31% en el consumo. Este cambio se debe a un ajuste en el patrón de consumo de la sede a partir del 30 de noviembre.
 -->
 
-<!-- ### BC 66 - Palmira -->
+### BC 66 - Palmira
 
-<!-- La sede ha logrado reducir su consumo en un 7% con respecto al mes anterior, lo que indica que se ha tenido en cuenta la recomendación de encender el aire acondicionado a partir de las 7:00 am. Esta medida ha generado ahorros de 649 kWh en el mes de Octubre. -->
+- El consumo de energía en Noviembre fue de 5680 kWh esto representa una disminución de 1354 kWh menos en comparación al mes anterior Octubre cuyo consumo fue de 7035, lo que representa un 19.25% menos de consumo.
 
 <!-- ### BC 78 - El Cacique  -->
 <!--
@@ -69,7 +69,7 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 ### BC 210 - Banca Colombia Cartagena
 
-- En el mes de octubre se registró una disminución de 1,082 kWh en el consumo de energía durante las horas nocturnas, lo que representa una reducción del 12.85%.
+- La sede ha mejorado su patrón de consumo con referente a su linea base, lo que representa un 2.60% menos de consumo para el mes de noviembre.
 
 
 <!-- La sede estuvo en mantenimiento operativo del 29 noviembre del 2023  hasta el 12 de febrero 2024, lo cual ya se observa patrones de consumos normales. -->
@@ -116,9 +116,9 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 <!--### BC 424 - Honda
 
 - Se ha identificado una novedad en la sede, donde el consumo de aire acondicionado es superior al registrado en el totalizador. -->
-### BC 453 - Pitalito
+<!--### BC 453 - Pitalito
 
-- El consumo de energía en octubre aumentó en 1,366 kWh en comparación con el mes anterior, septiembre, lo que representa un incremento del 16.96%. Este aumento se observó durante el horario laboral, cuando los aires acondicionados fueron utilizados con mayor frecuencia
+- El consumo de energía en octubre aumentó en 1,366 kWh en comparación con el mes anterior, septiembre, lo que representa un incremento del 16.96%. Este aumento se observó durante el horario laboral, cuando los aires acondicionados fueron utilizados con mayor frecuencia-->
  <!--###
 ### BC 454 - Quinta Avenida  
 
@@ -145,14 +145,15 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 - A partir del 9 de agosto, la sede experimentó un cambio en el patrón de consumo durante las horas nocturnas. Se recomienda verificar la automatización. -->
 
 <!-- ### BC 514 - Centro Comercial Único -->
-<!--
+
 ### BC 523 - Olímpica
 
-- Se ha identificado un cambio en el patrón de consumo a partir del 24 de noviembre. Se sugiere realizar una validación en el sitio para descartar posibles fallas en el sistema de aire acondicionado.-->
+- La sede presenta una novedad en los consumos nocturnos, se suguiere validar la automatización de los equipos.
+
 
 ### BC 534 - Buganviles
 
-- La sede presenta novedad en la medida totalizadora, se debe validar si el 25 de octubre se presentaron trabajos operativos.
+- La sede presenta novedad en la medida totalizadora, se debe cambiar medidor.
 
 <!-- ### BC 613 - La America -->
 
@@ -167,7 +168,7 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 <!--### BC 678 - Paseo de la Castellana 
 
-- El consumo de energía de Marzo fue 9672 kWh se consumió 3022 kWh más en comparación al mes anterior Febrero con 6650, lo que representa un 45.45% más de consumo. Se sugiere validar la automatización en las horas nocturnas. -->
+- El consumo de energía de Marzo fue 9672 kWh se consumió 3022 kWh más en comparación al mes anterior Febrero con 6650, lo que representa un 45.45% más de consumo. Se sugiere validar la automatización en las horas nocturnas. *** LA SEDE NO PRESENTA DATOS-->  
 
 ### BC 705 - El Bagre 
 
@@ -197,17 +198,20 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 <!--
 ### BC 784 - Centro Colon
 
-- La sede presentó un cambio en el patrón de consumo del 7 al 17 de agosto. Se recomienda verificar si se realizaron trabajos operativos durante ese período.
+- La sede presentó un cambio en el patrón de consumo del 7 al 17 de agosto. Se recomienda verificar si se realizaron trabajos operativos durante ese período. **la sede esta sin datos**
+- esta sede presenta problemas de comunicacion se debe cambiar la sim.
 -->
 <!-- Consumo irregular con respecto a la línea base (revsar tablero interactivo para junior información).  -->
 
 ### BC 787 - Bocagrande Carrera Tercera
 
-- La sede presenta novedad en la medida totalizadora a partir del 25 de agosto , se debe validar que cambios operativos se realizaron.
+- La sede presenta novedad en la medida totalizadora a partir del 25 de agosto , se reporta novedad.
 
 <!-- ### BC 789 - Manga -->
 
-<!-- ### BC 792 - Paseo del comercio -->
+<!-- ### BC 792 - Paseo del comercio --> .
+.
+
 
 <!--### BC 793 - Profesionales
 
