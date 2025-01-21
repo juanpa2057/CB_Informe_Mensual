@@ -1,0 +1,61 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+  - file: notebooks/summary/Notebook BC Resumen
+  - file: Hallazgos
+
+  - file: notebooks/individual/Notebook BC 044 - Piedecuesta  #1
+  - file: notebooks/individual/Notebook BC 061 - Carrera Primera #2
+  - file: notebooks/individual/Notebook BC 66 - Palmira #3
+  - file: notebooks/individual/Notebook BC 78 - El Cacique #4
+  - file: notebooks/individual/Notebook BC 88 - Cúcuta #5
+  - file: notebooks/individual/Notebook BC 90 - Megamall #6
+  - file: notebooks/individual/Notebook BC 185 - Llano Grande Palmira #7
+  - file: notebooks/individual/Notebook BC 197 - Guatapuri #8
+  - file: notebooks/individual/Notebook BC 205 - Villa Colombia #9
+  - file: notebooks/individual/Notebook BC 210 - Banca Colombia Cartagena #10
+  - file: notebooks/individual/Notebook BC 216 - Sabana de Torres #11
+  - file: notebooks/individual/Notebook BC 253 - Puerta del Norte #12
+  - file: notebooks/individual/Notebook BC 291 - Las Palmas #13
+  - file: notebooks/individual/Notebook BC 302 - Quebrada Seca #14
+  - file: notebooks/individual/Notebook BC 306 - Barrancabermeja #15
+  - file: notebooks/individual/Notebook BC 311 - Bello #16
+  - file: notebooks/individual/Notebook BC 371 - Caucasia #17
+  - file: notebooks/individual/Notebook BC 398 - Mariquita #18
+  - file: notebooks/individual/Notebook BC 424 - Honda #19
+  - file: notebooks/individual/Notebook BC 453 - Pitalito #20
+  - file: notebooks/individual/Notebook BC 454 - Quinta Avenida 2 #21
+  - file: notebooks/individual/Notebook BC 459 - Campo Alegre #22
+  - file: notebooks/individual/Notebook BC 495 - El Bosque #23
+  - file: notebooks/individual/Notebook BC 496 - Iwanna #24
+  - file: notebooks/individual/Notebook BC 514 - Centro Comercial Único #25
+  - file: notebooks/individual/Notebook BC 523 - Olímpica #26
+  - file: notebooks/individual/Notebook BC 534 - Buganviles #27
+  - file: notebooks/individual/Notebook BC 613 - La America #28
+  - file: notebooks/individual/Notebook BC 656 - Mayales #29
+  - file: notebooks/individual/Notebook BC 659 - Girardot #30
+  - file: notebooks/individual/Notebook BC 678 - Paseo de la Castellana #31
+  - file: notebooks/individual/Notebook BC 705 - El Bagre #32
+  - file: notebooks/individual/Notebook BC 749 - Santa Monica #33
+  - file: notebooks/individual/Notebook BC 750 - Roosevelt #34
+  - file: notebooks/individual/Notebook BC 764 - Jamundí #35
+  - file: notebooks/individual/Notebook BC 776 - Lebrija #36
+  - file: notebooks/individual/Notebook BC 784 - Centro Colon #37
+  - file: notebooks/individual/Notebook BC 787 - Bocagrande Carrera Tercera #38
+  - file: notebooks/individual/Notebook BC 789 - Manga #39
+  - file: notebooks/individual/Notebook BC 792 - Paseo del comercio #40
+  - file: notebooks/individual/Notebook BC 793 - Profesionales #41
+  - file: notebooks/individual/Notebook BC 796 - Girón #42
+  - file: notebooks/individual/Notebook BC 799 - Floridablanca #43
+  - file: notebooks/individual/Notebook BC 816 - Calle 10 #44
+  - file: notebooks/individual/Notebook BC 824 - Ventura Plaza #45
+  - file: notebooks/individual/Notebook BC 825 - Astrocentro #46
+  - file: notebooks/individual/Notebook BC 829 - Unicentro Cali #47
+  - file: notebooks/individual/Notebook BC 834 - San Mateo #48
+  - file: notebooks/individual/Notebook BC 863 - Los Patios #49
+  - file: notebooks/individual/Notebook BC 524 - S.A. Valledupar #50
+  - file: notebooks/individual/Notebook BC 821 GRANADA CALI #51
+  - file: notebooks/individual/Notebook BC - Sede Adm Twins bay  #52

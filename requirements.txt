@@ -1,0 +1,10 @@
+jupyter-book
+matplotlib
+numpy
+tkinter 
+requests
+pandas 
+json
+time
+datetime 
+matplotlib 

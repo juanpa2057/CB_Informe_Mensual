@@ -1,0 +1,48 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Informe bancolombia Mensual
+author: Celsia Colombia
+logo: logo.png
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+  timeout: 100000
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/juanpa2057/juanpa2057.github.io  # Online location of your book
+  path_to_book: docs  # Optional path to your book, relative to the repository root
+  branch: master  # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: false
+  use_repository_button: false
+
+sphinx:
+  config:
+    html_theme_options:
+      use_download_button: false
+      repository_url: https://github.com/juanpa2057/juanpa2057.github.io
+      use_issues_button: false
+      use_repository_button: false
+      use_edit_page_button: false  
+      
+sphinx:
+  config:
+    html_js_files:
+    - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+
+
+html:
+  extra_css: 
+    - main/_static/myfile.css

@@ -1,0 +1,23 @@
+Procedimiento para generar informes:
+
+0. Verificar que el archivo .env existe y que la ruta es la correcta (reemplazar \ por \\)
+1. Configurar el rango de fechas deseado en config_v2.py
+2. Correr tools/request.ipynb para hacer el request a Ubidots.
+3. Hacer cualquier cambio deseado en el notebook tools/modelo.ipynb (o tools/blueprint.ipynb en su defecto) (modelo es el notebook prototipo para replicar entre sedes)
+4. Borrar los notebooks individuales por sede (main/notebooks/individual)
+5. Replicar el modelo para cada sede usando tools/builder.ipynb
+6. Actualizar la tabla de contenidos main/\_toc.yml con las sedes que tienen datos en las fechas del reporte (usar el printout de tools/builder.ipynb)
+7. Borrar la carpeta main/\_build (o manipular la configuración de ejecución entre cache y force. Borrar funciona como hacer force)
+8. Abrir una consola cmd y verificar que se esté en el entorno virtual con las dependencias necesarias
+9. Asegurarse de estar en el directorio un nivel por encima de la carpeta ../main
+10. Correr el comando: "jb build main" para compilar los notebooks
+11. Hacer commit y push de los cambios a github
+12. Correr el comando: "ghp-import -n -p -f main/\_build/html" para cargar el informe a GitHub Pages
+13. Crear el informe en PDF, correr el comando "jb build main/ --builder pdfhtml"
+
+Comentarios adicionales:
+Se puede usar el mismo informe para encontrar los hallazgos. Para esto se corre una vez con los hallazgos comentados en el \_toc.yml.
+Se abre main/\_build/html/intro.html en el navegador y se revisan las figuras, anotando las observaciones en el archivo Hallazgos.md.
+Al terminar los hallazgos se descomenta el archivo de hallazgos en la tabla de contenidos y se compila nuevamente.
+Para finalizar se hace el push y se carga a GitHub Pages...
+

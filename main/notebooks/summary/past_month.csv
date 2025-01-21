@@ -1,0 +1,310 @@
+datetime,variable,device,device_name,value,hour,day,cont_dow,week,month,year,dow
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc---floridablanca,BC 799 - Floridablanca,5676.61,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc---floridablanca,BC 799 - Floridablanca,5706.1,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc---floridablanca,BC 799 - Floridablanca,5095.03,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc---floridablanca,BC 799 - Floridablanca,5297.14,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc---floridablanca,BC 799 - Floridablanca,5172.3,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc---floridablanca,BC 799 - Floridablanca,5076.2,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc---floridablanca,BC 799 - Floridablanca,4202.4,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc---floridablanca,BC 799 - Floridablanca,4245.25,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc-291-las-palmas,BC 291 - Las Palmas,11386.94,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc-291-las-palmas,BC 291 - Las Palmas,10942.47,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc-291-las-palmas,BC 291 - Las Palmas,11878.63,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc-291-las-palmas,BC 291 - Las Palmas,11121.82,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc-291-las-palmas,BC 291 - Las Palmas,10804.37,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc-291-las-palmas,BC 291 - Las Palmas,10300.67,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc-291-las-palmas,BC 291 - Las Palmas,10398.49,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc-291-las-palmas,BC 291 - Las Palmas,10838.3,0,31,5.0,52,12,2022,sábado
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc-816-1---calle-10,BC 816 - Calle 10,2653.21,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc-816-1---calle-10,BC 816 - Calle 10,6334.05,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc-816-1---calle-10,BC 816 - Calle 10,6444.15,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc-816-1---calle-10,BC 816 - Calle 10,6407.59,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc-megamall,BC 90 - Megamall,674.0,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc-megamall,BC 90 - Megamall,5216.29,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc-megamall,BC 90 - Megamall,6019.48,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc-megamall,BC 90 - Megamall,5309.71,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc-megamall,BC 90 - Megamall,5046.66,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc-megamall,BC 90 - Megamall,4745.4,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc-megamall,BC 90 - Megamall,4648.86,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc-megamall,BC 90 - Megamall,4743.05,0,31,5.0,52,12,2022,sábado
+2022-01-31 00:00:00-05:00,front-consumo-activa,bc01-iluminacion-girardot,BC 659 - Girardot,3326.01,0,31,0.0,5,1,2022,lunes
+2022-02-28 00:00:00-05:00,front-consumo-activa,bc01-iluminacion-girardot,BC 659 - Girardot,2853.65,0,28,0.0,9,2,2022,lunes
+2022-03-31 00:00:00-05:00,front-consumo-activa,bc01-iluminacion-girardot,BC 659 - Girardot,3141.47,0,31,3.0,13,3,2022,jueves
+2022-04-30 00:00:00-05:00,front-consumo-activa,bc01-iluminacion-girardot,BC 659 - Girardot,7378.68,0,30,5.0,17,4,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc01-iluminacion-girardot,BC 659 - Girardot,10233.33,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc01-iluminacion-girardot,BC 659 - Girardot,9770.86,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc01-iluminacion-girardot,BC 659 - Girardot,11677.2,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc01-iluminacion-girardot,BC 659 - Girardot,11895.72,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc01-iluminacion-girardot,BC 659 - Girardot,12461.1,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc01-iluminacion-girardot,BC 659 - Girardot,12983.75,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc01-iluminacion-girardot,BC 659 - Girardot,12159.35,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc01-iluminacion-girardot,BC 659 - Girardot,12393.13,0,31,5.0,52,12,2022,sábado
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc10,BC 210 - Banca Colombia Cartagena,5793.46,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc10,BC 210 - Banca Colombia Cartagena,6972.61,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc10,BC 210 - Banca Colombia Cartagena,7996.0,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc10,BC 210 - Banca Colombia Cartagena,3269.63,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc10,BC 210 - Banca Colombia Cartagena,4616.62,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc10,BC 210 - Banca Colombia Cartagena,4176.04,0,31,5.0,52,12,2022,sábado
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc11,BC 678 - Paseo de la Castellana,104.63,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc11,BC 678 - Paseo de la Castellana,7518.62,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc11,BC 678 - Paseo de la Castellana,9029.11,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc11,BC 678 - Paseo de la Castellana,8081.08,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc11,BC 678 - Paseo de la Castellana,0.0,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc11,BC 678 - Paseo de la Castellana,18098.44,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc11,BC 678 - Paseo de la Castellana,10253.69,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc12,BC 88 - Cúcuta,3726.9,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc12,BC 88 - Cúcuta,5426.82,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc12,BC 88 - Cúcuta,5501.67,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc12,BC 88 - Cúcuta,5728.86,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc12,BC 88 - Cúcuta,5060.73,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc12,BC 88 - Cúcuta,6199.55,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc12,BC 88 - Cúcuta,5488.08,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc12,BC 88 - Cúcuta,5398.36,0,31,5.0,52,12,2022,sábado
+2022-04-30 00:00:00-05:00,front-consumo-activa,bc14,BC 185 - Llano Grande Palmira,242.06,0,30,5.0,17,4,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc14,BC 185 - Llano Grande Palmira,6172.63,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc14,BC 185 - Llano Grande Palmira,5554.02,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc14,BC 185 - Llano Grande Palmira,6325.84,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc14,BC 185 - Llano Grande Palmira,6131.34,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc14,BC 185 - Llano Grande Palmira,5112.28,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc14,BC 185 - Llano Grande Palmira,5399.01,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc14,BC 185 - Llano Grande Palmira,5482.99,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc14,BC 185 - Llano Grande Palmira,5575.66,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc15,BC 311 - Bello,5299.14,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc15,BC 311 - Bello,5478.59,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc15,BC 311 - Bello,6431.75,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc15,BC 311 - Bello,6993.14,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc15,BC 311 - Bello,6271.38,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc15,BC 311 - Bello,6215.83,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc15,BC 311 - Bello,6368.93,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc15,BC 311 - Bello,7573.33,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc16,BC 306 - Barrancabermeja,2597.19,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc16,BC 306 - Barrancabermeja,5068.78,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc16,BC 306 - Barrancabermeja,5140.82,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc16,BC 306 - Barrancabermeja,5334.69,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc16,BC 306 - Barrancabermeja,5511.19,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc16,BC 306 - Barrancabermeja,5559.4,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc16,BC 306 - Barrancabermeja,6267.91,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc16,BC 306 - Barrancabermeja,6350.38,0,31,5.0,52,12,2022,sábado
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc18,BC 514 - Centro Comercial Único,5115.98,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc18,BC 514 - Centro Comercial Único,6786.31,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc18,BC 514 - Centro Comercial Único,5837.53,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc18,BC 514 - Centro Comercial Único,6774.48,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc18,BC 514 - Centro Comercial Único,5947.78,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc18,BC 514 - Centro Comercial Único,6115.65,0,31,5.0,52,12,2022,sábado
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc2,BC 453 - Pitalito,5314.26,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc2,BC 453 - Pitalito,9081.02,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc2,BC 453 - Pitalito,-12408.56,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc2,BC 453 - Pitalito,7008.09,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc2,BC 453 - Pitalito,7087.91,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc2,BC 453 - Pitalito,30262.86,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc21,BC 459 - Campo Alegre,1039.22,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc21,BC 459 - Campo Alegre,3745.68,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc21,BC 459 - Campo Alegre,3950.34,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc21,BC 459 - Campo Alegre,4078.95,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc21,BC 459 - Campo Alegre,3933.4,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc21,BC 459 - Campo Alegre,3907.45,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc21,BC 459 - Campo Alegre,3864.82,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc21,BC 459 - Campo Alegre,3646.0,0,31,5.0,52,12,2022,sábado
+2022-04-30 00:00:00-05:00,front-consumo-activa,bc26,BC 824 - Ventura Plaza,844.73,0,30,5.0,17,4,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc26,BC 824 - Ventura Plaza,4236.08,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc26,BC 824 - Ventura Plaza,9888.1,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc26,BC 824 - Ventura Plaza,7605.83,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc26,BC 824 - Ventura Plaza,7390.86,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc26,BC 824 - Ventura Plaza,6718.88,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc26,BC 824 - Ventura Plaza,6418.62,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc26,BC 824 - Ventura Plaza,5906.6,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc26,BC 824 - Ventura Plaza,5991.64,0,31,5.0,52,12,2022,sábado
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc27,BC 495 - El Bosque,5683.92,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc27,BC 495 - El Bosque,8659.12,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc27,BC 495 - El Bosque,7854.75,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc27,BC 495 - El Bosque,7691.26,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc27,BC 495 - El Bosque,7189.56,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc27,BC 495 - El Bosque,7359.41,0,31,5.0,52,12,2022,sábado
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc30,BC 792 - Paseo del comercio,4422.13,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc30,BC 792 - Paseo del comercio,5602.32,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc30,BC 792 - Paseo del comercio,5939.81,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc30,BC 792 - Paseo del comercio,5571.08,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc30,BC 792 - Paseo del comercio,5378.06,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc30,BC 792 - Paseo del comercio,5193.99,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc30,BC 792 - Paseo del comercio,5768.6,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc31,BC 776 - Lebrija,304.87,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc31,BC 776 - Lebrija,3705.02,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc31,BC 776 - Lebrija,3536.38,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc31,BC 776 - Lebrija,3552.65,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc31,BC 776 - Lebrija,3195.57,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc31,BC 776 - Lebrija,3208.56,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc31,BC 776 - Lebrija,3374.26,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc31,BC 776 - Lebrija,2898.19,0,31,5.0,52,12,2022,sábado
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc32,BC 398 - Mariquita,5364.97,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc32,BC 398 - Mariquita,5670.92,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc32,BC 398 - Mariquita,4821.99,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc32,BC 398 - Mariquita,4781.69,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc33,BC 613 - La America,363.6,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc33,BC 613 - La America,0.0,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc33,BC 613 - La America,13408.76,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc33,BC 613 - La America,7218.73,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc33,BC 613 - La America,6581.0,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc33,BC 613 - La America,5666.52,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc33,BC 613 - La America,5303.39,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc33,BC 613 - La America,5344.52,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc35,BC 044 - Piedecuesta,3611.4,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc35,BC 044 - Piedecuesta,7695.57,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc35,BC 044 - Piedecuesta,7597.2,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc35,BC 044 - Piedecuesta,8487.17,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc35,BC 044 - Piedecuesta,7414.15,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc35,BC 044 - Piedecuesta,7046.85,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc35,BC 044 - Piedecuesta,5677.85,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc35,BC 044 - Piedecuesta,5188.03,0,31,5.0,52,12,2022,sábado
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc36,BC 496 - Iwanna,6323.11,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc36,BC 496 - Iwanna,11981.19,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc36,BC 496 - Iwanna,11424.63,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc36,BC 496 - Iwanna,11521.34,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc36,BC 496 - Iwanna,11521.65,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc36,BC 496 - Iwanna,12178.05,0,31,5.0,52,12,2022,sábado
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc37,BC 523 - Olímpica,9001.0,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc37,BC 523 - Olímpica,8580.34,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc37,BC 523 - Olímpica,8943.94,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc37,BC 523 - Olímpica,8374.06,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc38,BC 656 - Mayales,715.36,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc38,BC 656 - Mayales,4669.45,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc38,BC 656 - Mayales,4525.53,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc38,BC 656 - Mayales,5059.7,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc38,BC 656 - Mayales,4414.0,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc38,BC 656 - Mayales,5798.34,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc38,BC 656 - Mayales,6435.59,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc38,BC 656 - Mayales,6179.99,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc4,BC 78 - El Cacique,295.61,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc4,BC 78 - El Cacique,7261.76,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc4,BC 78 - El Cacique,7314.13,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc4,BC 78 - El Cacique,7634.29,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc4,BC 78 - El Cacique,7584.32,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc4,BC 78 - El Cacique,7239.59,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc4,BC 78 - El Cacique,7193.73,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc4,BC 78 - El Cacique,6914.61,0,31,5.0,52,12,2022,sábado
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc40,BC 834 - San Mateo,2991.08,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc40,BC 834 - San Mateo,6125.45,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc40,BC 834 - San Mateo,6739.11,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc40,BC 834 - San Mateo,6758.64,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc40,BC 834 - San Mateo,6721.25,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc40,BC 834 - San Mateo,6934.62,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc40,BC 834 - San Mateo,6211.09,0,31,5.0,52,12,2022,sábado
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc42,BC 863 - Los Patios,2563.36,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc42,BC 863 - Los Patios,2767.95,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc42,BC 863 - Los Patios,3138.98,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc42,BC 863 - Los Patios,2990.32,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc42,BC 863 - Los Patios,2819.38,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc42,BC 863 - Los Patios,2752.54,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc42,BC 863 - Los Patios,2550.39,0,31,5.0,52,12,2022,sábado
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc43,BC 789 - Manga,14.92,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc43,BC 789 - Manga,7416.57,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc43,BC 789 - Manga,7117.81,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc43,BC 789 - Manga,6614.55,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc43,BC 789 - Manga,7062.44,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc43,BC 789 - Manga,6209.78,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc43,BC 789 - Manga,5568.8,0,31,5.0,52,12,2022,sábado
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc44,BC 534 - Buganviles,3272.4,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc44,BC 534 - Buganviles,7055.58,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc44,BC 534 - Buganviles,6262.43,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc44,BC 534 - Buganviles,5972.67,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc44,BC 534 - Buganviles,5510.86,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc44,BC 534 - Buganviles,5591.23,0,31,5.0,52,12,2022,sábado
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc45,BC 424 - Honda,2190.96,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc45,BC 424 - Honda,2941.17,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc45,BC 424 - Honda,3363.83,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc45,BC 424 - Honda,3283.17,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc45,BC 424 - Honda,3277.91,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc45,BC 424 - Honda,3635.34,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc45,BC 424 - Honda,3178.63,0,31,5.0,52,12,2022,sábado
+2022-04-30 00:00:00-05:00,front-consumo-activa,bc46,BC 825 - Astrocentro,5437.34,0,30,5.0,17,4,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc46,BC 825 - Astrocentro,1795.84,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc46,BC 825 - Astrocentro,0.0,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc46,BC 825 - Astrocentro,23497.49,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc46,BC 825 - Astrocentro,0.0,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc46,BC 825 - Astrocentro,0.0,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc46,BC 825 - Astrocentro,30118.66,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc46,BC 825 - Astrocentro,8689.31,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc46,BC 825 - Astrocentro,8594.77,0,31,5.0,52,12,2022,sábado
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc49,BC 216 - Sabana de Torres,1129.23,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc49,BC 216 - Sabana de Torres,3228.03,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc49,BC 216 - Sabana de Torres,3330.36,0,31,5.0,52,12,2022,sábado
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc54,BC 205 - Villa Colombia,2514.59,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc54,BC 205 - Villa Colombia,5857.8,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc54,BC 205 - Villa Colombia,4835.28,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc54,BC 205 - Villa Colombia,3934.46,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc54,BC 205 - Villa Colombia,3685.77,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc54,BC 205 - Villa Colombia,3651.6,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc54,BC 205 - Villa Colombia,3408.5,0,31,5.0,52,12,2022,sábado
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc56,BC 061 - Carrera Primera,7.85,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc56,BC 061 - Carrera Primera,9487.06,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc56,BC 061 - Carrera Primera,11322.66,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc56,BC 061 - Carrera Primera,11899.78,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc56,BC 061 - Carrera Primera,11603.36,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc56,BC 061 - Carrera Primera,10663.2,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc56,BC 061 - Carrera Primera,9830.94,0,31,5.0,52,12,2022,sábado
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc57,BC 796 - Girón,4670.8,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc57,BC 796 - Girón,8383.39,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc57,BC 796 - Girón,6981.18,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc57,BC 796 - Girón,7884.04,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc57,BC 796 - Girón,7023.31,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc57,BC 796 - Girón,6501.1,0,31,5.0,52,12,2022,sábado
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc58t,BC 750 - Roosevelt,4249.94,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc58t,BC 750 - Roosevelt,6200.58,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc58t,BC 750 - Roosevelt,5965.96,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc58t,BC 750 - Roosevelt,6330.07,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc6,BC 197 - Guatapuri,2233.27,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc6,BC 197 - Guatapuri,8335.62,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc6,BC 197 - Guatapuri,8678.15,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc6,BC 197 - Guatapuri,7133.13,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc6,BC 197 - Guatapuri,5704.39,0,30,4.0,39,9,2022,viernes
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc60,BC 784 - Centro Colon,7473.19,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc60,BC 784 - Centro Colon,3569.5,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc60,BC 784 - Centro Colon,0.0,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc60,BC 784 - Centro Colon,20630.25,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc60,BC 784 - Centro Colon,6983.81,0,31,5.0,52,12,2022,sábado
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc61,BC 302 - Quebrada Seca,1798.37,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc61,BC 302 - Quebrada Seca,7360.68,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc61,BC 302 - Quebrada Seca,6865.45,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc61,BC 302 - Quebrada Seca,6432.17,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc61,BC 302 - Quebrada Seca,6238.09,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc61,BC 302 - Quebrada Seca,5927.31,0,31,5.0,52,12,2022,sábado
+2022-05-31 00:00:00-05:00,front-consumo-activa,bc64,BC 66 - Palmira,1033.53,0,31,1.0,22,5,2022,martes
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc64,BC 66 - Palmira,6234.05,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc64,BC 66 - Palmira,6546.85,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc64,BC 66 - Palmira,7247.05,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc64,BC 66 - Palmira,7051.16,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc64,BC 66 - Palmira,6253.63,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc64,BC 66 - Palmira,6481.4,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc64,BC 66 - Palmira,7162.43,0,31,5.0,52,12,2022,sábado
+2022-06-30 00:00:00-05:00,front-consumo-activa,bc65,BC 764 - Jamundí,104.2,0,30,3.0,26,6,2022,jueves
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc65,BC 764 - Jamundí,5087.68,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc65,BC 764 - Jamundí,5992.83,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc65,BC 764 - Jamundí,5909.67,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc65,BC 764 - Jamundí,5569.84,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc65,BC 764 - Jamundí,5240.46,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc65,BC 764 - Jamundí,5576.49,0,31,5.0,52,12,2022,sábado
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc7,BC 253 - Puerta del Norte,4958.18,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc7,BC 253 - Puerta del Norte,6083.64,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc7,BC 253 - Puerta del Norte,5328.48,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc7,BC 253 - Puerta del Norte,5356.71,0,31,5.0,52,12,2022,sábado
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc71,BC 787 - Bocagrande Carrera Tercera,24211.87,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc71,BC 787 - Bocagrande Carrera Tercera,11283.19,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc71,BC 787 - Bocagrande Carrera Tercera,15688.11,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc71,BC 787 - Bocagrande Carrera Tercera,11649.7,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc71,BC 787 - Bocagrande Carrera Tercera,11154.62,0,31,5.0,52,12,2022,sábado
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc71-2,BC 793 - Profesionales,211.44,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc71-2,BC 793 - Profesionales,4054.03,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc71-2,BC 793 - Profesionales,4201.97,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc71-2,BC 793 - Profesionales,3631.37,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc71-2,BC 793 - Profesionales,3822.12,0,31,5.0,52,12,2022,sábado
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc8,BC 371 - Caucasia,1788.99,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc8,BC 371 - Caucasia,9345.81,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc8,BC 371 - Caucasia,7561.83,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc8,BC 371 - Caucasia,8750.32,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc8,BC 371 - Caucasia,10588.98,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc8,BC 371 - Caucasia,7206.97,0,31,5.0,52,12,2022,sábado
+2022-07-31 00:00:00-05:00,front-consumo-activa,bc9,BC 741 - Calima,2466.03,0,31,6.0,30,7,2022,domingo
+2022-08-31 00:00:00-05:00,front-consumo-activa,bc9,BC 741 - Calima,5565.8,0,31,2.0,35,8,2022,miércoles
+2022-09-30 00:00:00-05:00,front-consumo-activa,bc9,BC 741 - Calima,4884.76,0,30,4.0,39,9,2022,viernes
+2022-10-31 00:00:00-05:00,front-consumo-activa,bc9,BC 741 - Calima,0.0,0,31,0.0,44,10,2022,lunes
+2022-11-30 00:00:00-05:00,front-consumo-activa,bc9,BC 741 - Calima,0.0,0,30,2.0,48,11,2022,miércoles
+2022-12-31 00:00:00-05:00,front-consumo-activa,bc9,BC 741 - Calima,15448.71,0,31,5.0,52,12,2022,sábado
