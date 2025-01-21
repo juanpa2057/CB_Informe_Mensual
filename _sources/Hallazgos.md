@@ -4,7 +4,7 @@
 
 </div>
 
-Noviembre 2024
+Diciembre 2024
 ## Tener presente:
 
 1. Las pérdidas de datos en el totalizador pueden hacer parecer como que los consumos de AA o Iluminación superan al totalizador.
@@ -36,10 +36,10 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 <!-- En diciembre, el consumo de energía fue 2,296 kWh menor en comparación con el mes anterior noviembre que registró un consumo de 10,291 kWh. Esto representa una disminución del 22.31% en el consumo. Este cambio se debe a un ajuste en el patrón de consumo de la sede a partir del 30 de noviembre.
 -->
-
+<!--
 ### BC 66 - Palmira
 
-- El consumo de energía en Noviembre fue de 5680 kWh esto representa una disminución de 1354 kWh menos en comparación al mes anterior Octubre cuyo consumo fue de 7035, lo que representa un 19.25% menos de consumo.
+- El consumo de energía en Noviembre fue de 5680 kWh esto representa una disminución de 1354 kWh menos en comparación al mes anterior Octubre cuyo consumo fue de 7035, lo que representa un 19.25% menos de consumo.-->
 
 <!-- ### BC 78 - El Cacique  -->
 <!--
@@ -61,7 +61,9 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 ### BC 197 - Guatapuri
 
-- Se recomienda verificar el funcionamiento del sistema de aire acondicionado, ya que se han identificado patrones de consumo atípicos. Además, el sistema se está apagando a las 21:00 horas, aunque el horario habitual de apagado debería ser a las 18:00 horas.
+- En diciembre, el consumo de energía fue de 8,377 kWh, 425 kWh menos que en noviembre (8,802 kWh), lo que equivale a una reducción del 4.83%.
+
+- 
 <!--
 ### BC 205 - Villa Colombia
 
@@ -71,6 +73,7 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 - La sede ha mejorado su patrón de consumo con referente a su linea base, lo que representa un 2.60% menos de consumo para el mes de noviembre.
 
+- La sede mejoro su patrón de consumo y resolvio novedad del apagado del AA, pasando de las 21 h, a las 18 h.
 
 <!-- La sede estuvo en mantenimiento operativo del 29 noviembre del 2023  hasta el 12 de febrero 2024, lo cual ya se observa patrones de consumos normales. -->
 
@@ -111,7 +114,7 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 
 ### BC 398 - Mariquita
 
-- La sede presenta una novedad en el encendido del sistema de AA a partir del 26 de septiembre. Es necesario verificar que no se estén realizando trabajos operativos.
+- La sede presenta una novedad en el encendido del sistema de AA. Es necesario verificar que no se estén realizando trabajos operativos.
 
 <!--### BC 424 - Honda
 
@@ -153,7 +156,7 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 ### BC 534 - Buganviles
 
-- La sede presenta novedad en la medida totalizadora, se debe cambiar medidor.
+- Se corrigue novedad de la medida totalizadora el 16 diciembre , para la sucursal
 
 <!-- ### BC 613 - La America -->
 
@@ -169,10 +172,10 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 <!--### BC 678 - Paseo de la Castellana 
 
 - El consumo de energía de Marzo fue 9672 kWh se consumió 3022 kWh más en comparación al mes anterior Febrero con 6650, lo que representa un 45.45% más de consumo. Se sugiere validar la automatización en las horas nocturnas. *** LA SEDE NO PRESENTA DATOS-->  
-
+<!--
 ### BC 705 - El Bagre 
 
-- La sede presenta novedad en la medida AA, se debe validar si el 11 de octubre se presentaron trabajos operativos.
+- La sede presenta novedad en la medida AA, se debe validar si el 11 de octubre se presentaron trabajos operativos. -->
 
 <!-- ### BC 741 - Calima--> 
 
@@ -195,8 +198,12 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 
 - Para el mes de Mayo se consumió 532 kWh menos en comparación al mes anterior Abril con 3252, lo que representa un 16.36% menos de consumo, debido a que se presentoun cambio en el patrón de consumo desde el 16 de may. -->
-<!--
+
 ### BC 784 - Centro Colon
+
+- La sede presenta novedad de comunicacion, pendiente programación de cambio de equipos de comunicación.
+
+<!--
 
 - La sede presentó un cambio en el patrón de consumo del 7 al 17 de agosto. Se recomienda verificar si se realizaron trabajos operativos durante ese período. **la sede esta sin datos**
 - esta sede presenta problemas de comunicacion se debe cambiar la sim.

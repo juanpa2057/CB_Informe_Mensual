@@ -14,45 +14,48 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-
-  
-  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
-  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
 
     <script src="_static/documentation_options.js?v=9eb32ce0"></script>
-    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="_static/copybutton.js?v=5eb1bb1e"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
@@ -65,6 +68,7 @@
     <link rel="prev" title="Resumen" href="notebooks/summary/Notebook%20BC%20Resumen.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
   </head>
   
   
@@ -72,31 +76,16 @@
 
   
   
-  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
   
   <div id="pst-scroll-pixel-helper"></div>
   
   <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-    Back to top
-  </button>
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
-  
-  <input type="checkbox"
-          class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
-  
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
+  <dialog id="pst-search-dialog">
+    
 <form class="bd-search d-flex align-items-center"
       action="search.html"
       method="get">
@@ -104,7 +93,6 @@
   <input type="search"
          class="form-control"
          name="q"
-         id="search-input"
          placeholder="Search this book..."
          aria-label="Search this book..."
          autocomplete="off"
@@ -112,10 +100,15 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
-  </div>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
     </header>
   
 
@@ -124,7 +117,8 @@
       
       
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -139,6 +133,8 @@
         <div class="sidebar-primary-item">
 
   
+    
+  
 
 <a class="navbar-brand logo" href="intro.html">
   
@@ -152,21 +148,17 @@
     
     
     <img src="_static/logo.png" class="logo__image only-light" alt="Informe bancolombia Mensual - Home"/>
-    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Informe bancolombia Mensual - Home"/>`);</script>
+    <img src="_static/logo.png" class="logo__image only-dark pst-js-only" alt="Informe bancolombia Mensual - Home"/>
   
   
 </a></div>
         <div class="sidebar-primary-item">
 
- <script>
- document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script></div>
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         
@@ -240,14 +232,19 @@
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
   </div>
-  
-  <div id="rtd-footer-container"></div>
 
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
 
@@ -256,14 +253,14 @@
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
       
-        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
   <span class="fa-solid fa-bars"></span>
-</label></div>
+</button></div>
       
     </div>
   
@@ -339,27 +336,19 @@
 
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
-  </button>
-`);
-</script>
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
 
 
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
-  </button>
-`);
-</script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <span class="fa-solid fa-list"></span>
-</label>
+</button>
 </div></div>
       
     </div>
@@ -383,14 +372,13 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tener-presente">Tener presente:</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#observaciones-especificas">Observaciones específicas:</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-061-carrera-primera">BC 061 - Carrera Primera</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-66-palmira">BC 66 - Palmira</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-197-guatapuri">BC 197 - Guatapuri</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-210-banca-colombia-cartagena">BC 210 - Banca Colombia Cartagena</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-398-mariquita">BC 398 - Mariquita</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-523-olimpica">BC 523 - Olímpica</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-534-buganviles">BC 534 - Buganviles</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-705-el-bagre">BC 705 - El Bagre</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-750-roosevelt">BC 750 - Roosevelt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-784-centro-colon">BC 784 - Centro Colon</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-787-bocagrande-carrera-tercera">BC 787 - Bocagrande Carrera Tercera</a></li>
 </ul>
 </li>
@@ -409,7 +397,7 @@ document.write(`
 <h1>Observaciones<a class="headerlink" href="#observaciones" title="Link to this heading">#</a></h1>
 <div align="right">
 </div>
-<p>Noviembre 2024</p>
+<p>Diciembre 2024</p>
 <section id="tener-presente">
 <h2>Tener presente:<a class="headerlink" href="#tener-presente" title="Link to this heading">#</a></h2>
 <ol class="arabic simple">
@@ -442,12 +430,10 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 </ul>
 <!-- En diciembre, el consumo de energía fue 2,296 kWh menor en comparación con el mes anterior noviembre que registró un consumo de 10,291 kWh. Esto representa una disminución del 22.31% en el consumo. Este cambio se debe a un ajuste en el patrón de consumo de la sede a partir del 30 de noviembre.
 -->
-</section>
-<section id="bc-66-palmira">
-<h3>BC 66 - Palmira<a class="headerlink" href="#bc-66-palmira" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p>El consumo de energía en Noviembre fue de 5680 kWh esto representa una disminución de 1354 kWh menos en comparación al mes anterior Octubre cuyo consumo fue de 7035, lo que representa un 19.25% menos de consumo.</p></li>
-</ul>
+<!--
+### BC 66 - Palmira
+
+- El consumo de energía en Noviembre fue de 5680 kWh esto representa una disminución de 1354 kWh menos en comparación al mes anterior Octubre cuyo consumo fue de 7035, lo que representa un 19.25% menos de consumo.-->
 <!-- ### BC 78 - El Cacique  -->
 <!--
 ### BC 88 - Cúcuta 
@@ -467,7 +453,8 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 <section id="bc-197-guatapuri">
 <h3>BC 197 - Guatapuri<a class="headerlink" href="#bc-197-guatapuri" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p>Se recomienda verificar el funcionamiento del sistema de aire acondicionado, ya que se han identificado patrones de consumo atípicos. Además, el sistema se está apagando a las 21:00 horas, aunque el horario habitual de apagado debería ser a las 18:00 horas.</p></li>
+<li><p>En diciembre, el consumo de energía fue de 8,377 kWh, 425 kWh menos que en noviembre (8,802 kWh), lo que equivale a una reducción del 4.83%.</p></li>
+<li></li>
 </ul>
 <!--
 ### BC 205 - Villa Colombia
@@ -478,6 +465,7 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 <h3>BC 210 - Banca Colombia Cartagena<a class="headerlink" href="#bc-210-banca-colombia-cartagena" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>La sede ha mejorado su patrón de consumo con referente a su linea base, lo que representa un 2.60% menos de consumo para el mes de noviembre.</p></li>
+<li><p>La sede mejoro su patrón de consumo y resolvio novedad del apagado del AA, pasando de las 21 h, a las 18 h.</p></li>
 </ul>
 <!-- La sede estuvo en mantenimiento operativo del 29 noviembre del 2023  hasta el 12 de febrero 2024, lo cual ya se observa patrones de consumos normales. -->
 <!-- ### BC 205 - Villa Colombia -->
@@ -507,7 +495,7 @@ Durante el mes de Noviembre se observó que las sedes disminuyeron su consumo en
 <section id="bc-398-mariquita">
 <h3>BC 398 - Mariquita<a class="headerlink" href="#bc-398-mariquita" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p>La sede presenta una novedad en el encendido del sistema de AA a partir del 26 de septiembre. Es necesario verificar que no se estén realizando trabajos operativos.</p></li>
+<li><p>La sede presenta una novedad en el encendido del sistema de AA. Es necesario verificar que no se estén realizando trabajos operativos.</p></li>
 </ul>
 <!--### BC 424 - Honda
 
@@ -543,7 +531,7 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 <section id="bc-534-buganviles">
 <h3>BC 534 - Buganviles<a class="headerlink" href="#bc-534-buganviles" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p>La sede presenta novedad en la medida totalizadora, se debe cambiar medidor.</p></li>
+<li><p>Se corrigue novedad de la medida totalizadora el 16 diciembre , para la sucursal</p></li>
 </ul>
 <!-- ### BC 613 - La America -->
 <!-- Se presentó un cambio en el consumo nocturno para el 12 de agosto. Se deben validar temas de automatización en la sede. -->
@@ -555,12 +543,10 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 <!--### BC 678 - Paseo de la Castellana 
 
 - El consumo de energía de Marzo fue 9672 kWh se consumió 3022 kWh más en comparación al mes anterior Febrero con 6650, lo que representa un 45.45% más de consumo. Se sugiere validar la automatización en las horas nocturnas. *** LA SEDE NO PRESENTA DATOS-->  
-</section>
-<section id="bc-705-el-bagre">
-<h3>BC 705 - El Bagre<a class="headerlink" href="#bc-705-el-bagre" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p>La sede presenta novedad en la medida AA, se debe validar si el 11 de octubre se presentaron trabajos operativos.</p></li>
-</ul>
+<!--
+### BC 705 - El Bagre 
+
+- La sede presenta novedad en la medida AA, se debe validar si el 11 de octubre se presentaron trabajos operativos. -->
 <!-- ### BC 741 - Calima--> 
 <!-- Se desmonto monitoreo por adecuación en la sede entra fase 2.-->
 <!-- ### BC 749 - Santa Monnica--> 
@@ -579,8 +565,13 @@ importante tener en cuenta que se está construyendo la línea base para futuras
 
 
 - Para el mes de Mayo se consumió 532 kWh menos en comparación al mes anterior Abril con 3252, lo que representa un 16.36% menos de consumo, debido a que se presentoun cambio en el patrón de consumo desde el 16 de may. -->
+</section>
+<section id="bc-784-centro-colon">
+<h3>BC 784 - Centro Colon<a class="headerlink" href="#bc-784-centro-colon" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>La sede presenta novedad de comunicacion, pendiente programación de cambio de equipos de comunicación.</p></li>
+</ul>
 <!--
-### BC 784 - Centro Colon
 
 - La sede presentó un cambio en el patrón de consumo del 7 al 17 de agosto. Se recomienda verificar si se realizaron trabajos operativos durante ese período. **la sede esta sin datos**
 - esta sede presenta problemas de comunicacion se debe cambiar la sim.
@@ -645,7 +636,7 @@ Sin datos para abril, no entraria en facturación
               
               
               
-                <footer class="prev-next-footer">
+                <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
     <a class="left-prev"
@@ -673,7 +664,8 @@ Sin datos para abril, no entraria en facturación
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
   <div class="sidebar-secondary-item">
@@ -685,14 +677,13 @@ Sin datos para abril, no entraria en facturación
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tener-presente">Tener presente:</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#observaciones-especificas">Observaciones específicas:</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-061-carrera-primera">BC 061 - Carrera Primera</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-66-palmira">BC 66 - Palmira</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-197-guatapuri">BC 197 - Guatapuri</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-210-banca-colombia-cartagena">BC 210 - Banca Colombia Cartagena</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-398-mariquita">BC 398 - Mariquita</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-523-olimpica">BC 523 - Olímpica</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-534-buganviles">BC 534 - Buganviles</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-705-el-bagre">BC 705 - El Bagre</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-750-roosevelt">BC 750 - Roosevelt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-784-centro-colon">BC 784 - Centro Colon</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bc-787-bocagrande-carrera-tercera">BC 787 - Bocagrande Carrera Tercera</a></li>
 </ul>
 </li>
@@ -744,8 +735,8 @@ By Celsia Colombia
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
 
   <footer class="bd-footer">
   </footer>

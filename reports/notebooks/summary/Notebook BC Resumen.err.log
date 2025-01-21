@@ -1,0 +1,88 @@
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/nbclient/client.py", line 1314, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/nbclient/client.py", line 709, in async_execute
+    await self.async_execute_cell(
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/nbclient/client.py", line 1062, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+#df = pd.read_pickle(project_path / 'data' / _PICKLED_DATA_FILENAME)
+df = pd.read_pickle(r"C:\Proyectos Digitalización\Bancolombia\CB_informes_Ubi\Informe_semanal_v2\data\data_weekly_report.pkl")
+
+# Legacy code (including the library) expects these column names
+# but the new Ubidots library returns more specific column names
+# so renaming is necessary. TODO: rework the Report library
+# so that it uses these more descriptive column names.
+df = df.rename(columns={'variable_label':'variable','device_label':'device',})
+
+df = df.sort_values(by=['variable','datetime'])
+df = pro.datetime_attributes(df)
+
+# Agrego esta linea codigo para quitar estas dos sedes que generar ruido por datos altos
+df = df[~df["device_name"].isin(["BC 829 - Unicentro Cali", "BC 454 - Quinta Avenida 2"])]
+
+df_bl, df_st = pro.split_into_baseline_and_study(df, baseline=cfg.BASELINE, study=cfg.STUDY, inclusive='left')
+
+study_daterange = pd.Series(pd.date_range(start=cfg.STUDY[0], end=cfg.STUDY[1], freq='D'))
+
+------------------
+
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+Cell [0;32mIn[4], line 2[0m
+[1;32m      1[0m [38;5;66;03m#df = pd.read_pickle(project_path / 'data' / _PICKLED_DATA_FILENAME)[39;00m
+[0;32m----> 2[0m df [38;5;241m=[39m [43mpd[49m[38;5;241;43m.[39;49m[43mread_pickle[49m[43m([49m[38;5;124;43mr[39;49m[38;5;124;43m"[39;49m[38;5;124;43mC:[39;49m[38;5;124;43m\[39;49m[38;5;124;43mProyectos Digitalización[39;49m[38;5;124;43m\[39;49m[38;5;124;43mBancolombia[39;49m[38;5;124;43m\[39;49m[38;5;124;43mCB_informes_Ubi[39;49m[38;5;124;43m\[39;49m[38;5;124;43mInforme_semanal_v2[39;49m[38;5;124;43m\[39;49m[38;5;124;43mdata[39;49m[38;5;124;43m\[39;49m[38;5;124;43mdata_weekly_report.pkl[39;49m[38;5;124;43m"[39;49m[43m)[49m
+[1;32m      4[0m [38;5;66;03m# Legacy code (including the library) expects these column names[39;00m
+[1;32m      5[0m [38;5;66;03m# but the new Ubidots library returns more specific column names[39;00m
+[1;32m      6[0m [38;5;66;03m# so renaming is necessary. TODO: rework the Report library[39;00m
+[1;32m      7[0m [38;5;66;03m# so that it uses these more descriptive column names.[39;00m
+[1;32m      8[0m df [38;5;241m=[39m df[38;5;241m.[39mrename(columns[38;5;241m=[39m{[38;5;124m'[39m[38;5;124mvariable_label[39m[38;5;124m'[39m:[38;5;124m'[39m[38;5;124mvariable[39m[38;5;124m'[39m,[38;5;124m'[39m[38;5;124mdevice_label[39m[38;5;124m'[39m:[38;5;124m'[39m[38;5;124mdevice[39m[38;5;124m'[39m,})
+
+File [0;32m/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/pandas/io/pickle.py:190[0m, in [0;36mread_pickle[0;34m(filepath_or_buffer, compression, storage_options)[0m
+[1;32m    124[0m [38;5;250m[39m[38;5;124;03m"""[39;00m
+[1;32m    125[0m [38;5;124;03mLoad pickled pandas object (or any object) from file.[39;00m
+[1;32m    126[0m 
+[0;32m   (...)[0m
+[1;32m    187[0m [38;5;124;03m4    4    9[39;00m
+[1;32m    188[0m [38;5;124;03m"""[39;00m
+[1;32m    189[0m excs_to_catch [38;5;241m=[39m ([38;5;167;01mAttributeError[39;00m, [38;5;167;01mImportError[39;00m, [38;5;167;01mModuleNotFoundError[39;00m, [38;5;167;01mTypeError[39;00m)
+[0;32m--> 190[0m [38;5;28;01mwith[39;00m [43mget_handle[49m[43m([49m
+[1;32m    191[0m [43m    [49m[43mfilepath_or_buffer[49m[43m,[49m
+[1;32m    192[0m [43m    [49m[38;5;124;43m"[39;49m[38;5;124;43mrb[39;49m[38;5;124;43m"[39;49m[43m,[49m
+[1;32m    193[0m [43m    [49m[43mcompression[49m[38;5;241;43m=[39;49m[43mcompression[49m[43m,[49m
+[1;32m    194[0m [43m    [49m[43mis_text[49m[38;5;241;43m=[39;49m[38;5;28;43;01mFalse[39;49;00m[43m,[49m
+[1;32m    195[0m [43m    [49m[43mstorage_options[49m[38;5;241;43m=[39;49m[43mstorage_options[49m[43m,[49m
+[1;32m    196[0m [43m[49m[43m)[49m [38;5;28;01mas[39;00m handles:
+[1;32m    197[0m 
+[1;32m    198[0m     [38;5;66;03m# 1) try standard library Pickle[39;00m
+[1;32m    199[0m     [38;5;66;03m# 2) try pickle_compat (older pandas version) to handle subclass changes[39;00m
+[1;32m    200[0m     [38;5;66;03m# 3) try pickle_compat with latin-1 encoding upon a UnicodeDecodeError[39;00m
+[1;32m    202[0m     [38;5;28;01mtry[39;00m:
+[1;32m    203[0m         [38;5;66;03m# TypeError for Cython complaints about object.__new__ vs Tick.__new__[39;00m
+[1;32m    204[0m         [38;5;28;01mtry[39;00m:
+
+File [0;32m/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/pandas/io/common.py:865[0m, in [0;36mget_handle[0;34m(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)[0m
+[1;32m    856[0m         handle [38;5;241m=[39m [38;5;28mopen[39m(
+[1;32m    857[0m             handle,
+[1;32m    858[0m             ioargs[38;5;241m.[39mmode,
+[0;32m   (...)[0m
+[1;32m    861[0m             newline[38;5;241m=[39m[38;5;124m"[39m[38;5;124m"[39m,
+[1;32m    862[0m         )
+[1;32m    863[0m     [38;5;28;01melse[39;00m:
+[1;32m    864[0m         [38;5;66;03m# Binary mode[39;00m
+[0;32m--> 865[0m         handle [38;5;241m=[39m [38;5;28;43mopen[39;49m[43m([49m[43mhandle[49m[43m,[49m[43m [49m[43mioargs[49m[38;5;241;43m.[39;49m[43mmode[49m[43m)[49m
+[1;32m    866[0m     handles[38;5;241m.[39mappend(handle)
+[1;32m    868[0m [38;5;66;03m# Convert BytesIO or file objects passed with an encoding[39;00m
+
+[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: 'C:\\Proyectos Digitalización\\Bancolombia\\CB_informes_Ubi\\Informe_semanal_v2\\data\\data_weekly_report.pkl'
+

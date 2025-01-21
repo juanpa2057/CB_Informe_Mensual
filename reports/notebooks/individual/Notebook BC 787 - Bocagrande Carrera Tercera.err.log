@@ -1,19 +1,17 @@
 Traceback (most recent call last):
-  File "C:\Users\jpocampo\.conda\envs\nuevo2-env\lib\site-packages\jupyter_cache\executors\utils.py", line 58, in single_nb_execution
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
     executenb(
-  File "C:\Users\jpocampo\.conda\envs\nuevo2-env\lib\site-packages\nbclient\client.py", line 1204, in execute
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/nbclient/client.py", line 1314, in execute
     return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
-  File "C:\Users\jpocampo\.conda\envs\nuevo2-env\lib\site-packages\nbclient\util.py", line 84, in wrapped
-    return just_run(coro(*args, **kwargs))
-  File "C:\Users\jpocampo\.conda\envs\nuevo2-env\lib\site-packages\nbclient\util.py", line 62, in just_run
-    return loop.run_until_complete(coro)
-  File "C:\Users\jpocampo\.conda\envs\nuevo2-env\lib\asyncio\base_events.py", line 647, in run_until_complete
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
     return future.result()
-  File "C:\Users\jpocampo\.conda\envs\nuevo2-env\lib\site-packages\nbclient\client.py", line 663, in async_execute
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/nbclient/client.py", line 709, in async_execute
     await self.async_execute_cell(
-  File "C:\Users\jpocampo\.conda\envs\nuevo2-env\lib\site-packages\nbclient\client.py", line 965, in async_execute_cell
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/nbclient/client.py", line 1062, in async_execute_cell
     await self._check_raise_for_error(cell, cell_index, exec_reply)
-  File "C:\Users\jpocampo\.conda\envs\nuevo2-env\lib\site-packages\nbclient\client.py", line 862, in _check_raise_for_error
+  File "/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
@@ -47,50 +45,45 @@ front_month = pro.datetime_attributes(front_month)
 meses_agrupados = meses.groupby(['variable', pd.Grouper(freq='M')]).agg({'value': 'sum', 'hour': 'first', 'day': 'first', 'cont_dow': 'first', 'week': 'first', 'month': 'first', 'year': 'first', 'dow': 'first'}).reset_index()
 ------------------
 
-[1;31m---------------------------------------------------------------------------[0m
-[1;31mValueError[0m                                Traceback (most recent call last)
-Cell [1;32mIn[7], line 10[0m
-[0;32m      7[0m cargas_month [38;5;241m=[39m cargas[38;5;241m.[39mgroupby(by[38;5;241m=[39m[[38;5;124m"[39m[38;5;124mvariable[39m[38;5;124m"[39m])[38;5;241m.[39mresample([38;5;124m'[39m[38;5;124m1M[39m[38;5;124m'[39m)[38;5;241m.[39msum()[38;5;241m.[39mreset_index()[38;5;241m.[39mset_index([38;5;124m'[39m[38;5;124mdatetime[39m[38;5;124m'[39m)
-[0;32m      8[0m cargas_month [38;5;241m=[39m pro[38;5;241m.[39mdatetime_attributes(cargas_month)
-[1;32m---> 10[0m front_hour [38;5;241m=[39m [43mfront[49m[38;5;241;43m.[39;49m[43mgroupby[49m[43m([49m[43mby[49m[38;5;241;43m=[39;49m[43m[[49m[38;5;124;43m"[39;49m[38;5;124;43mvariable[39;49m[38;5;124;43m"[39;49m[43m][49m[43m)[49m[38;5;241;43m.[39;49m[43mresample[49m[43m([49m[38;5;124;43m'[39;49m[38;5;124;43m1h[39;49m[38;5;124;43m'[39;49m[43m)[49m[38;5;241;43m.[39;49m[43msum[49m[43m([49m[43m)[49m[38;5;241;43m.[39;49m[43mround[49m[43m([49m[38;5;241;43m2[39;49m[43m)[49m[38;5;241;43m.[39;49m[43mreset_index[49m[43m([49m[43m)[49m[38;5;241m.[39mset_index([38;5;124m'[39m[38;5;124mdatetime[39m[38;5;124m'[39m)
-[0;32m     11[0m front_hour [38;5;241m=[39m pro[38;5;241m.[39mdatetime_attributes(front_hour)
-[0;32m     13[0m front_day [38;5;241m=[39m front[38;5;241m.[39mgroupby(by[38;5;241m=[39m[[38;5;124m"[39m[38;5;124mvariable[39m[38;5;124m"[39m])[38;5;241m.[39mresample([38;5;124m'[39m[38;5;124m1D[39m[38;5;124m'[39m)[38;5;241m.[39msum()[38;5;241m.[39mreset_index()[38;5;241m.[39mset_index([38;5;124m'[39m[38;5;124mdatetime[39m[38;5;124m'[39m)
 
-File [1;32m~\.conda\envs\nuevo2-env\lib\site-packages\pandas\util\_decorators.py:331[0m, in [0;36mdeprecate_nonkeyword_arguments.<locals>.decorate.<locals>.wrapper[1;34m(*args, **kwargs)[0m
-[0;32m    325[0m [38;5;28;01mif[39;00m [38;5;28mlen[39m(args) [38;5;241m>[39m num_allow_args:
-[0;32m    326[0m     warnings[38;5;241m.[39mwarn(
-[0;32m    327[0m         msg[38;5;241m.[39mformat(arguments[38;5;241m=[39m_format_argument_list(allow_args)),
-[0;32m    328[0m         [38;5;167;01mFutureWarning[39;00m,
-[0;32m    329[0m         stacklevel[38;5;241m=[39mfind_stack_level(),
-[0;32m    330[0m     )
-[1;32m--> 331[0m [38;5;28;01mreturn[39;00m func([38;5;241m*[39margs, [38;5;241m*[39m[38;5;241m*[39mkwargs)
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mValueError[0m                                Traceback (most recent call last)
+[0;32m/var/folders/_8/538vk3794fv7fbhk4ms0ks2r0000gp/T/ipykernel_7873/2013691524.py[0m in [0;36m?[0;34m()[0m
+[1;32m      6[0m [0;34m[0m[0m
+[1;32m      7[0m [0mcargas_month[0m [0;34m=[0m [0mcargas[0m[0;34m.[0m[0mgroupby[0m[0;34m([0m[0mby[0m[0;34m=[0m[0;34m[[0m[0;34m"variable"[0m[0;34m][0m[0;34m)[0m[0;34m.[0m[0mresample[0m[0;34m([0m[0;34m'1M'[0m[0;34m)[0m[0;34m.[0m[0msum[0m[0;34m([0m[0;34m)[0m[0;34m.[0m[0mreset_index[0m[0;34m([0m[0;34m)[0m[0;34m.[0m[0mset_index[0m[0;34m([0m[0;34m'datetime'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      8[0m [0mcargas_month[0m [0;34m=[0m [0mpro[0m[0;34m.[0m[0mdatetime_attributes[0m[0;34m([0m[0mcargas_month[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m      9[0m [0;34m[0m[0m
+[0;32m---> 10[0;31m [0mfront_hour[0m [0;34m=[0m [0mfront[0m[0;34m.[0m[0mgroupby[0m[0;34m([0m[0mby[0m[0;34m=[0m[0;34m[[0m[0;34m"variable"[0m[0;34m][0m[0;34m)[0m[0;34m.[0m[0mresample[0m[0;34m([0m[0;34m'1h'[0m[0;34m)[0m[0;34m.[0m[0msum[0m[0;34m([0m[0;34m)[0m[0;34m.[0m[0mround[0m[0;34m([0m[0;36m2[0m[0;34m)[0m[0;34m.[0m[0mreset_index[0m[0;34m([0m[0;34m)[0m[0;34m.[0m[0mset_index[0m[0;34m([0m[0;34m'datetime'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     11[0m [0mfront_hour[0m [0;34m=[0m [0mpro[0m[0;34m.[0m[0mdatetime_attributes[0m[0;34m([0m[0mfront_hour[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     12[0m [0;34m[0m[0m
+[1;32m     13[0m [0mfront_day[0m [0;34m=[0m [0mfront[0m[0;34m.[0m[0mgroupby[0m[0;34m([0m[0mby[0m[0;34m=[0m[0;34m[[0m[0;34m"variable"[0m[0;34m][0m[0;34m)[0m[0;34m.[0m[0mresample[0m[0;34m([0m[0;34m'1D'[0m[0;34m)[0m[0;34m.[0m[0msum[0m[0;34m([0m[0;34m)[0m[0;34m.[0m[0mreset_index[0m[0;34m([0m[0;34m)[0m[0;34m.[0m[0mset_index[0m[0;34m([0m[0;34m'datetime'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
 
-File [1;32m~\.conda\envs\nuevo2-env\lib\site-packages\pandas\core\frame.py:6361[0m, in [0;36mDataFrame.reset_index[1;34m(self, level, drop, inplace, col_level, col_fill, allow_duplicates, names)[0m
-[0;32m   6355[0m         [38;5;28;01mif[39;00m lab [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
-[0;32m   6356[0m             [38;5;66;03m# if we have the codes, extract the values with a mask[39;00m
-[0;32m   6357[0m             level_values [38;5;241m=[39m algorithms[38;5;241m.[39mtake(
-[0;32m   6358[0m                 level_values, lab, allow_fill[38;5;241m=[39m[38;5;28;01mTrue[39;00m, fill_value[38;5;241m=[39mlev[38;5;241m.[39m_na_value
-[0;32m   6359[0m             )
-[1;32m-> 6361[0m         [43mnew_obj[49m[38;5;241;43m.[39;49m[43minsert[49m[43m([49m
-[0;32m   6362[0m [43m            [49m[38;5;241;43m0[39;49m[43m,[49m
-[0;32m   6363[0m [43m            [49m[43mname[49m[43m,[49m
-[0;32m   6364[0m [43m            [49m[43mlevel_values[49m[43m,[49m
-[0;32m   6365[0m [43m            [49m[43mallow_duplicates[49m[38;5;241;43m=[39;49m[43mallow_duplicates[49m[43m,[49m
-[0;32m   6366[0m [43m        [49m[43m)[49m
-[0;32m   6368[0m new_obj[38;5;241m.[39mindex [38;5;241m=[39m new_index
-[0;32m   6369[0m [38;5;28;01mif[39;00m [38;5;129;01mnot[39;00m inplace:
+[0;32m/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/pandas/util/_decorators.py[0m in [0;36m?[0;34m(*args, **kwargs)[0m
+[1;32m    327[0m                     [0mmsg[0m[0;34m.[0m[0mformat[0m[0;34m([0m[0marguments[0m[0;34m=[0m[0m_format_argument_list[0m[0;34m([0m[0mallow_args[0m[0;34m)[0m[0;34m)[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    328[0m                     [0mFutureWarning[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    329[0m                     [0mstacklevel[0m[0;34m=[0m[0mfind_stack_level[0m[0;34m([0m[0;34m)[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    330[0m                 )
+[0;32m--> 331[0;31m             [0;32mreturn[0m [0mfunc[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+[0;32m/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/pandas/core/frame.py[0m in [0;36m?[0;34m(self, level, drop, inplace, col_level, col_fill, allow_duplicates, names)[0m
+[1;32m   6357[0m                     level_values = algorithms.take(
+[1;32m   6358[0m                         [0mlevel_values[0m[0;34m,[0m [0mlab[0m[0;34m,[0m [0mallow_fill[0m[0;34m=[0m[0;32mTrue[0m[0;34m,[0m [0mfill_value[0m[0;34m=[0m[0mlev[0m[0;34m.[0m[0m_na_value[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   6359[0m                     )
+[1;32m   6360[0m [0;34m[0m[0m
+[0;32m-> 6361[0;31m                 new_obj.insert(
+[0m[1;32m   6362[0m                     [0;36m0[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   6363[0m                     [0mname[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   6364[0m                     [0mlevel_values[0m[0;34m,[0m[0;34m[0m[0;34m[0m[0m
 
-File [1;32m~\.conda\envs\nuevo2-env\lib\site-packages\pandas\core\frame.py:4817[0m, in [0;36mDataFrame.insert[1;34m(self, loc, column, value, allow_duplicates)[0m
-[0;32m   4811[0m     [38;5;28;01mraise[39;00m [38;5;167;01mValueError[39;00m(
-[0;32m   4812[0m         [38;5;124m"[39m[38;5;124mCannot specify [39m[38;5;124m'[39m[38;5;124mallow_duplicates=True[39m[38;5;124m'[39m[38;5;124m when [39m[38;5;124m"[39m
-[0;32m   4813[0m         [38;5;124m"[39m[38;5;124m'[39m[38;5;124mself.flags.allows_duplicate_labels[39m[38;5;124m'[39m[38;5;124m is False.[39m[38;5;124m"[39m
-[0;32m   4814[0m     )
-[0;32m   4815[0m [38;5;28;01mif[39;00m [38;5;129;01mnot[39;00m allow_duplicates [38;5;129;01mand[39;00m column [38;5;129;01min[39;00m [38;5;28mself[39m[38;5;241m.[39mcolumns:
-[0;32m   4816[0m     [38;5;66;03m# Should this be a different kind of error??[39;00m
-[1;32m-> 4817[0m     [38;5;28;01mraise[39;00m [38;5;167;01mValueError[39;00m([38;5;124mf[39m[38;5;124m"[39m[38;5;124mcannot insert [39m[38;5;132;01m{[39;00mcolumn[38;5;132;01m}[39;00m[38;5;124m, already exists[39m[38;5;124m"[39m)
-[0;32m   4818[0m [38;5;28;01mif[39;00m [38;5;129;01mnot[39;00m [38;5;28misinstance[39m(loc, [38;5;28mint[39m):
-[0;32m   4819[0m     [38;5;28;01mraise[39;00m [38;5;167;01mTypeError[39;00m([38;5;124m"[39m[38;5;124mloc must be int[39m[38;5;124m"[39m)
+[0;32m/opt/anaconda3/envs/myenv/lib/python3.10/site-packages/pandas/core/frame.py[0m in [0;36m?[0;34m(self, loc, column, value, allow_duplicates)[0m
+[1;32m   4813[0m                 [0;34m"'self.flags.allows_duplicate_labels' is False."[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   4814[0m             )
+[1;32m   4815[0m         [0;32mif[0m [0;32mnot[0m [0mallow_duplicates[0m [0;32mand[0m [0mcolumn[0m [0;32min[0m [0mself[0m[0;34m.[0m[0mcolumns[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   4816[0m             [0;31m# Should this be a different kind of error??[0m[0;34m[0m[0;34m[0m[0m
+[0;32m-> 4817[0;31m             [0;32mraise[0m [0mValueError[0m[0;34m([0m[0;34mf"cannot insert {column}, already exists"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m   4818[0m         [0;32mif[0m [0;32mnot[0m [0misinstance[0m[0;34m([0m[0mloc[0m[0;34m,[0m [0mint[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   4819[0m             [0;32mraise[0m [0mTypeError[0m[0;34m([0m[0;34m"loc must be int"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m   4820[0m [0;34m[0m[0m
 
-[1;31mValueError[0m: cannot insert variable, already exists
-ValueError: cannot insert variable, already exists
+[0;31mValueError[0m: cannot insert variable, already exists
 
